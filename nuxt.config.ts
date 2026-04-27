@@ -24,6 +24,12 @@ export default defineNuxtConfig({
     server: {
       watch: {
         usePolling: true,
+        ignored: [
+          '**/node_modules/**',
+          '**/.git/**',
+          '**/.nuxt/**',
+          '**/.output/**',
+        ],
       },
     },
   },

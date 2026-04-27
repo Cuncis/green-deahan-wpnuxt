@@ -2,6 +2,7 @@
   <div>
     <SiteNav />
     <NuxtPage />
+    <SiteFooter />
   </div>
 </template>
 
@@ -96,4 +97,76 @@ body {
 .faq-answer.open {
   max-height: 300px;
 }
+
+.wa-float {
+  position: fixed;
+  bottom: 1.8rem;
+  right: 1.8rem;
+  z-index: 999;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  padding: .9rem 1.4rem;
+  font-weight: 700;
+  font-size: .9rem;
+  box-shadow: 0 6px 24px rgba(37, 211, 102, .45);
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  text-decoration: none;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.wa-float:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(37, 211, 102, .5);
+}
+
+/* gallery grid */
+.gal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 220px;
+  gap: 14px;
+}
+
+@media (max-width: 768px) {
+  .gal-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 180px; }
+  .tall { grid-row: span 1; }
+}
+
+@media (max-width: 480px) {
+  .gal-grid { grid-template-columns: 1fr; grid-auto-rows: 200px; }
+}
+
+.gal-item {
+  cursor: pointer;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: transform .25s, box-shadow .25s, border-color .25s;
+  background: #d4e6d4;
+}
+
+.gal-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, .13);
+  border-color: #006400;
+}
+
+.gal-item .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 100, 0, .75);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .25s;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.gal-item:hover .overlay { opacity: 1; }
+.tall { grid-row: span 2; }
 </style>

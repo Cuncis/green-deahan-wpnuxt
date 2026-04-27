@@ -1,5 +1,10 @@
 <script setup lang="ts">
-const { data: menuItems } = await useMenu({ name: 'Main Menu' })
+const navLinks = [
+    { label: 'Beranda', to: '/' },
+    { label: 'Galeri', to: '/galeri' },
+    { label: 'Blog', to: '/blog' },
+    { label: 'Kontak', to: '/kontak' },
+]
 
 const mobileOpen = ref(false)
 const navShadow = ref(false)
@@ -39,11 +44,11 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
                 </div>
             </NuxtLink>
 
-            <!-- Desktop menu — items from WordPress -->
+            <!-- Desktop menu -->
             <div class="hidden md:flex items-center gap-7 text-sm font-semibold text-stone-500">
-                <NuxtLink v-for="item in menuItems" :key="item.uri" :to="item.uri"
+                <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to"
                     class="hover:text-[#006400] transition-colors" active-class="!text-[#006400] !font-bold">
-                    {{ item.label }}
+                    {{ link.label }}
                 </NuxtLink>
             </div>
 
@@ -71,9 +76,9 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
         <!-- Mobile dropdown -->
         <div v-show="mobileOpen"
             class="md:hidden bg-[#f7f5f2] border-t border-stone-200 px-6 py-4 flex flex-col gap-4 text-sm font-semibold text-stone-700">
-            <NuxtLink v-for="item in menuItems" :key="item.uri" :to="item.uri" class="hover:text-[#006400]"
+            <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to" class="hover:text-[#006400]"
                 @click="mobileOpen = false">
-                {{ item.label }}
+                {{ link.label }}
             </NuxtLink>
             <a href="https://wa.me/6281357570064" target="_blank" rel="noopener noreferrer"
                 class="bg-[#006400] text-white text-center py-2.5 rounded-lg">
