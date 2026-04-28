@@ -214,11 +214,10 @@ onMounted(() => {
                         <div class="flex items-start justify-between mb-3">
                             <div>
                                 <span
-                                    class="text-xs font-bold text-[#006400] bg-green-50 px-2.5 py-1 rounded-full border border-green-200">⚽
+                                    class="text-xs font-bold text-[#006400] bg-green-50 px-2.5 py-1 rounded-full border border-green-200">⭐
                                     Paling Populer</span>
                                 <h3 class="font-display text-2xl font-black text-stone-900 mt-2">Lapangan Futsal</h3>
                             </div>
-                            <span class="text-3xl">⚽</span>
                         </div>
                         <p class="text-stone-500 text-sm leading-relaxed mb-4">Konstruksi lapangan futsal standar
                             internasional. Pilih lantai <strong>interlock</strong> atau <strong>rumput
@@ -258,7 +257,6 @@ onMounted(() => {
                                     Outdoor &amp; Indoor</span>
                                 <h3 class="font-display text-2xl font-black text-stone-900 mt-2">Mini Soccer</h3>
                             </div>
-                            <span class="text-3xl">🏟</span>
                         </div>
                         <p class="text-stone-500 text-sm leading-relaxed mb-4">Lapangan mini soccer dengan rumput
                             sintetis premium grade A. Sistem drainase profesional agar tidak tergenang saat hujan.
@@ -297,7 +295,6 @@ onMounted(() => {
                                     Tren Terbaru 2024</span>
                                 <h3 class="font-display text-2xl font-black text-stone-900 mt-2">Lapangan Padel</h3>
                             </div>
-                            <span class="text-3xl">🎾</span>
                         </div>
                         <p class="text-stone-500 text-sm leading-relaxed mb-4">Spesialis konstruksi lapangan padel
                             standar internasional (IFF). Dari struktur rangka baja, kaca tempered, hingga lantai
@@ -336,7 +333,6 @@ onMounted(() => {
                                     Indoor Specialist</span>
                                 <h3 class="font-display text-2xl font-black text-stone-900 mt-2">Lapangan Badminton</h3>
                             </div>
-                            <span class="text-3xl">🏸</span>
                         </div>
                         <p class="text-stone-500 text-sm leading-relaxed mb-4">Konstruksi lapangan badminton dengan
                             lantai <strong>vinyl sport</strong> atau <strong>kayu keras</strong> berkualitas. Non-slip,
@@ -381,7 +377,6 @@ onMounted(() => {
                         <div
                             class="w-14 h-14 bg-[#006400] text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
                             <span class="font-display font-black text-xl">01</span></div>
-                        <div class="text-2xl mb-2">💬</div>
                         <h3 class="font-bold text-stone-900 mb-1 text-sm">Konsultasi Gratis</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">Ceritakan kebutuhan, lokasi, dan budget. Tim
                             kami respon dalam 1 jam.</p>
@@ -391,7 +386,6 @@ onMounted(() => {
                         <div
                             class="w-14 h-14 bg-[#006400] text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
                             <span class="font-display font-black text-xl">02</span></div>
-                        <div class="text-2xl mb-2">📐</div>
                         <h3 class="font-bold text-stone-900 mb-1 text-sm">Survey &amp; Desain</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">Tim kami datang ke lokasi, ukur lahan, dan
                             buat desain lapangan sesuai kebutuhan.</p>
@@ -401,7 +395,6 @@ onMounted(() => {
                         <div
                             class="w-14 h-14 bg-[#006400] text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
                             <span class="font-display font-black text-xl">03</span></div>
-                        <div class="text-2xl mb-2">📋</div>
                         <h3 class="font-bold text-stone-900 mb-1 text-sm">Penawaran Harga</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">RAB &amp; penawaran harga detail dikirim.
                             Transparan, tanpa biaya tersembunyi.</p>
@@ -411,7 +404,6 @@ onMounted(() => {
                         <div
                             class="w-14 h-14 bg-[#006400] text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
                             <span class="font-display font-black text-xl">04</span></div>
-                        <div class="text-2xl mb-2">🏗</div>
                         <h3 class="font-bold text-stone-900 mb-1 text-sm">Konstruksi</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">Pengerjaan oleh tim ahli, tepat waktu. Anda
                             bisa pantau progress setiap hari.</p>
@@ -420,7 +412,6 @@ onMounted(() => {
                         style="transition-delay:.32s">
                         <div class="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
                             <span class="font-display font-black text-xl">05</span></div>
-                        <div class="text-2xl mb-2">🎉</div>
                         <h3 class="font-bold mb-1 text-sm">Lapangan Siap!</h3>
                         <p class="text-xs text-green-200 leading-relaxed">Serah terima lapangan siap pakai. Pelunasan
                             setelah 100% selesai. Garansi aktif!</p>
@@ -432,7 +423,7 @@ onMounted(() => {
                     <div class="text-3xl">💡</div>
                     <p class="text-sm text-stone-700 leading-relaxed">
                         <strong>Sistem Pembayaran Aman:</strong> Bayar uang muka (DP) di awal, pelunasan dilakukan
-                        <strong>setelah lapangan selesai 100%</strong>. Anda tidak perlu khawatir — kami yang menanggung
+                        <strong>setelah lapangan selesai 100%</strong>. Anda tidak perlu khawatir, kami yang menanggung
                         risiko pengerjaannya.
                     </p>
                     <a href="https://wa.me/6281357570064" target="_blank" rel="noopener noreferrer"
@@ -586,10 +577,10 @@ onMounted(() => {
                                     class="w-11 h-11 bg-green-100 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
                                     🏗</div>
                                 <div>
-                                    <h4 class="font-bold text-stone-900 mb-1">Dari Nol Sampai Jadi — Anda Santai Saja
+                                    <h4 class="font-bold text-stone-900 mb-1">Dari Nol Sampai Jadi, Anda Santai Saja
                                     </h4>
                                     <p class="text-sm text-stone-500 leading-relaxed">Survey, desain, perizinan,
-                                        konstruksi, finishing — semua kami urus. Anda tidak perlu pusing koordinasi
+                                        konstruksi, finishing - Semua kami urus. Anda tidak perlu pusing koordinasi
                                         banyak kontraktor.</p>
                                 </div>
                             </div>
@@ -602,7 +593,7 @@ onMounted(() => {
                                     <h4 class="font-bold text-stone-900 mb-1">Garansi Konstruksi &amp; Material Resmi
                                     </h4>
                                     <p class="text-sm text-stone-500 leading-relaxed">Setiap proyek dilindungi garansi
-                                        resmi. Jika ada masalah setelah selesai, tim kami langsung turun tangan — tanpa
+                                        resmi. Jika ada masalah setelah selesai, tim kami langsung turun tangan - tanpa
                                         biaya tambahan.</p>
                                 </div>
                             </div>
@@ -614,7 +605,7 @@ onMounted(() => {
                                 <div>
                                     <h4 class="font-bold text-stone-900 mb-1">Harga Transparan, Sesuai Budget Anda</h4>
                                     <p class="text-sm text-stone-500 leading-relaxed">RAB detail dikirim sebelum mulai.
-                                        Material bisa disesuaikan budget — interlock atau rumput sintetis, indoor atau
+                                        Material bisa disesuaikan budget - interlock atau rumput sintetis, indoor atau
                                         outdoor.</p>
                                 </div>
                             </div>
@@ -626,7 +617,7 @@ onMounted(() => {
                                 <div>
                                     <h4 class="font-bold text-stone-900 mb-1">Pengerjaan Cepat &amp; Tepat Waktu</h4>
                                     <p class="text-sm text-stone-500 leading-relaxed">Jadwal pengerjaan tertulis di
-                                        kontrak. Kami komitmen selesai tepat waktu — keterlambatan adalah tanggung jawab
+                                        kontrak. Kami komitmen selesai tepat waktu - keterlambatan adalah tanggung jawab
                                         kami.</p>
                                 </div>
                             </div>
@@ -638,7 +629,7 @@ onMounted(() => {
                                 <div>
                                     <h4 class="font-bold text-stone-900 mb-1">Melayani Seluruh Indonesia</h4>
                                     <p class="text-sm text-stone-500 leading-relaxed">Tim kami siap bergerak ke mana pun
-                                        Anda butuhkan — Jawa, Sumatera, Kalimantan, Sulawesi, dan seluruh wilayah
+                                        Anda butuhkan - Jawa, Sumatera, Kalimantan, Sulawesi, dan seluruh wilayah
                                         Indonesia.</p>
                                 </div>
                             </div>
@@ -657,15 +648,17 @@ onMounted(() => {
                                 <div class="text-sm font-semibold text-stone-700 flex items-center gap-2"><span
                                         class="text-[#006400]">✓</span> Jabodetabek</div>
                                 <div class="text-sm font-semibold text-stone-700 flex items-center gap-2"><span
-                                        class="text-[#006400]">✓</span> Jawa Tengah &amp; Timur</div>
+                                        class="text-[#006400]">✓</span> Jawa Tengah & Jawa Timur</div>
                                 <div class="text-sm font-semibold text-stone-700 flex items-center gap-2"><span
-                                        class="text-[#006400]">✓</span> Sumatera</div>
+                                        class="text-[#006400]">✓</span> Seluruh wilayah Sumatera</div>
                                 <div class="text-sm font-semibold text-stone-700 flex items-center gap-2"><span
-                                        class="text-[#006400]">✓</span> Kalimantan</div>
+                                        class="text-[#006400]">✓</span> Seluruh wilayah Kalimantan</div>
                                 <div class="text-sm font-semibold text-stone-700 flex items-center gap-2"><span
-                                        class="text-[#006400]">✓</span> Sulawesi</div>
+                                        class="text-[#006400]">✓</span> Seluruh wilayah Sulawesi</div>
                                 <div class="text-sm font-semibold text-stone-700 flex items-center gap-2"><span
-                                        class="text-[#006400]">✓</span> Bali &amp; NTB</div>
+                                        class="text-[#006400]">✓</span> Bali & Nusa Tenggara (NTB & NTT)</div>
+                                <div class="text-sm font-semibold text-stone-700 flex items-center gap-2"><span
+                                        class="text-[#006400]">✓</span> Maluku & Papua</div>
                             </div>
                         </div>
                     </div>
