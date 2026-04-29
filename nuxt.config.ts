@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     ['@wpnuxt/core', {
-      wordpressUrl: 'https://greendeahan.com',
+      wordpressUrl: process.env.WPNUXT_WORDPRESS_URL,
     }],
   ],
   app: {
