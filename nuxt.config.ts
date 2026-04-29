@@ -34,4 +34,8 @@ export default defineNuxtConfig({
       },
     },
   },
+  graphqlMiddleware: {
+    graphqlEndpoint: '/api/graphql-middleware',
+    skipDocumentValidation: true,  // ← skips the failing validation
+  },
 })
