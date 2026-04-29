@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: [
     ['@wpnuxt/core', {
       wordpressUrl: process.env.WPNUXT_WORDPRESS_URL,
+      downloadSchema: false,
     }],
   ],
   app: {
