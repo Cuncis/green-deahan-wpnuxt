@@ -33,7 +33,4 @@ export default defineNuxtConfig({
       },
     },
   },
-  graphqlMiddleware: {
-    graphqlEndpoint: process.env.WPNUXT_WORDPRESS_URL + '/graphql',
-  },
 })
