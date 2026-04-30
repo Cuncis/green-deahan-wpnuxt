@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     },
   },
   graphqlMiddleware: {
-    graphqlEndpoint: '/api/graphql-middleware',
-    skipDocumentValidation: true,  // ← skips the failing validation
+    graphqlEndpoint: process.env.WPNUXT_WORDPRESS_URL + '/graphql',
+    skipDocumentValidation: true,
   },
 })
