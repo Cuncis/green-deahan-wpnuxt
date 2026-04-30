@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   modules: [
     ['@wpnuxt/core', {
       wordpressUrl: process.env.WPNUXT_WORDPRESS_URL,
-      downloadSchema: false,
     }],
   ],
   app: {
@@ -36,6 +35,5 @@ export default defineNuxtConfig({
   },
   graphqlMiddleware: {
     graphqlEndpoint: process.env.WPNUXT_WORDPRESS_URL + '/graphql',
-    skipDocumentValidation: true,
   },
 })
