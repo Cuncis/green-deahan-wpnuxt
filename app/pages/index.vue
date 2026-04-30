@@ -11,7 +11,7 @@ const faqs = [
     },
     {
         q: 'Lantai apa saja yang tersedia dan apa bedanya?',
-        a: 'Kami menyediakan: <strong>Lantai Interlock</strong> — awet, mudah diperbaiki jika rusak sebagian, cocok indoor, harga lebih terjangkau. <strong>Rumput Sintetis</strong> — estetik, nyaman untuk outdoor, tahan cuaca. <strong>Vinyl Sport</strong> — khusus badminton/indoor, non-slip dan ramah lutut. <strong>Artificial Grass Padel</strong> — khusus lapangan padel standar internasional.',
+        a: 'Kami menyediakan: <strong>Lantai Interlock</strong> — awet, mudah diperbaiki jika rusak sebagian, cocok indoor, harga lebih terjangkau. <strong>Rumput Sintetis</strong> — estetik, nyaman untuk outdoor, tahan cuaca. <strong>Interlock</strong> — khusus badminton/indoor, non-slip dan ramah lutut. <strong>Artificial Grass Padel</strong> — khusus lapangan padel standar internasional.',
     },
     {
         q: 'Berapa lama waktu pengerjaan konstruksi lapangan?',
@@ -338,11 +338,11 @@ onMounted(() => {
                             </div>
                         </div>
                         <p class="text-stone-500 text-sm leading-relaxed mb-4">Konstruksi lapangan badminton dengan
-                            lantai <strong>vinyl sport</strong> atau <strong>kayu keras</strong> berkualitas. Non-slip,
+                            lantai <strong>interlock</strong> atau <strong>kayu keras</strong> berkualitas. Non-slip,
                             ramah sendi lutut. Pencahayaan LED anti-silau.</p>
                         <ul class="text-sm text-stone-600 space-y-1.5 mb-5">
                             <li class="flex items-center gap-2"><span class="text-[#006400] font-bold">✓</span> Lantai
-                                vinyl sport atau kayu keras</li>
+                                interlock atau kayu keras</li>
                             <li class="flex items-center gap-2"><span class="text-[#006400] font-bold">✓</span> Non-slip
                                 &amp; ramah lutut</li>
                             <li class="flex items-center gap-2"><span class="text-[#006400] font-bold">✓</span>
@@ -500,9 +500,9 @@ onMounted(() => {
                 </div>
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
                     style="transition-delay:.08s">
-                    <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 2<br>Mini Soccer Outdoor — Surabaya<br>(700×420px)</div>
-                    </div>
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/minisoccer-img1.png"
+                        alt="Mini Soccer Outdoor Surabaya"
+                        class="h-52 w-full object-cover group-hover:scale-105 transition-transform duration-500 m-0 p-0 border-0" />
                     <div class="bg-white p-4">
                         <span class="text-xs font-bold text-blue-600">🟢 Mini Soccer</span>
                         <h4 class="font-bold text-stone-900 mt-1">Mini Soccer Outdoor Surabaya</h4>
@@ -530,7 +530,7 @@ onMounted(() => {
                     <div class="bg-white p-4">
                         <span class="text-xs font-bold text-purple-600">🏸 Badminton</span>
                         <h4 class="font-bold text-stone-900 mt-1">Badminton 4 Court Bandung</h4>
-                        <p class="text-xs text-stone-500 mt-1">Lantai vinyl sport, LED anti-silau. 4 court dalam 1
+                        <p class="text-xs text-stone-500 mt-1">Lantai interlock, LED anti-silau. 4 court dalam 1
                             gedung.</p>
                     </div>
                 </div>
