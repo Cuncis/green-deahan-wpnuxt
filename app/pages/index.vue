@@ -789,16 +789,16 @@ onMounted(() => {
                 </div>
                 <div class="reveal">
                     <span
-                        class="inline-block bg-green-100 text-[#006400] text-xs font-bold px-3 py-1.5 rounded-full mb-4 tracking-wide">Tentang
-                        Kami</span>
-                    <h2 class="font-display text-3xl md:text-4xl font-black text-stone-900 mb-4">Green Deahan Sport —
+                        class="inline-block bg-green-100 text-[#006400] text-xs font-bold px-3 py-1.5 rounded-full mb-4 tracking-wide">Green
+                        Deahan Sport</span>
+                    <h2 class="font-display text-3xl md:text-4xl font-black text-stone-900 mb-4">
                         Spesialis Lapangan Olahraga Sejak 2010</h2>
                     <p class="text-stone-600 text-sm leading-relaxed mb-4">Green Deahan adalah jasa pembuatan lapangan
                         olahraga profesional yang melayani seluruh Indonesia sejak tahun 2010. Dengan pengalaman lebih
                         dari <strong>16 tahun</strong>, kami spesialis dalam konstruksi lapangan futsal, mini soccer,
                         padel, dan badminton.</p>
                     <p class="text-stone-600 text-sm leading-relaxed mb-6">Kami menawarkan layanan
-                        <strong>turnkey</strong> — dari konsultasi awal, desain, perizinan, konstruksi, hingga lapangan
+                        <strong>turnkey</strong> dari konsultasi awal, desain, perizinan, konstruksi, hingga lapangan
                         siap beroperasi. Anda cukup duduk dan pantau progress, kami yang kerjakan semuanya.
                     </p>
                     <div class="flex flex-wrap gap-4 mb-6">
@@ -814,14 +814,6 @@ onMounted(() => {
                             <div class="font-display font-black text-3xl text-[#006400]">15+</div>
                             <div class="text-xs text-stone-500 font-semibold">Kota di Indonesia</div>
                         </div>
-                    </div>
-                    <div class="bg-[#f7f5f2] border border-stone-200 rounded-xl p-4 text-sm text-stone-600">
-                        <p class="font-semibold text-stone-800 mb-1">📍 Kontak Langsung:</p>
-                        <p>📞 <a href="tel:+6281357570064" class="text-[#006400] font-semibold">+62 813-5757-0064</a>
-                        </p>
-                        <p>✉️ <a href="mailto:rumput1927@gmail.com"
-                                class="text-[#006400] font-semibold">rumput1927@gmail.com</a></p>
-                        <p>🕐 Senin – Sabtu, pukul 06.00 – 23.00 WIB</p>
                     </div>
                 </div>
             </div>
@@ -840,8 +832,7 @@ onMounted(() => {
                     Konsultasi <strong class="text-white">GRATIS</strong>, survey lokasi, desain profesional, konstruksi
                     berkualitas. Garansi resmi &amp; pelunasan setelah lapangan 100% selesai.
                 </p>
-                <p class="text-green-300 text-sm mb-10">⏱ Tim kami merespons dalam waktu kurang dari 1 jam!</p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
                     <a href="https://wa.me/6281357570064?text=Halo%20GreenDeahan,%20saya%20ingin%20konsultasi%20pembuatan%20lapangan"
                         target="_blank" rel="noopener noreferrer"
                         class="bg-white text-[#006400] font-black px-8 py-4 rounded-xl hover:bg-green-50 transition-colors text-sm flex items-center justify-center gap-2 shadow-xl">

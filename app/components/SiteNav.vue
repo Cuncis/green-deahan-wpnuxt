@@ -33,15 +33,9 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     ]">
         <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
             <!-- Logo -->
-            <NuxtLink to="/" class="flex items-center gap-2.5">
-                <div class="w-9 h-9 bg-[#006400] rounded-lg flex items-center justify-center">
-                    <span class="text-white font-display font-black text-sm">GD</span>
-                </div>
-                <div>
-                    <div class="font-display font-black text-[#006400] text-base leading-none">Green Deahan</div>
-                    <div class="text-[10px] font-semibold text-stone-400 tracking-widest uppercase leading-none mt-0.5">
-                        Sport</div>
-                </div>
+            <NuxtLink to="/" class="flex items-center">
+                <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/full-logo-02.png"
+                    alt="Green Deahan Sport Full Logo" class="h-10 w-auto object-contain" />
             </NuxtLink>
 
             <!-- Desktop menu -->
