@@ -101,20 +101,24 @@ onMounted(() => {
                         dari Nol — Siap Pakai!
                     </h1>
                     <p class="text-stone-500 text-base md:text-lg leading-relaxed mb-6 max-w-lg">
-                        Kami kerjakan <strong class="text-stone-800">semua dari A sampai Z</strong> — survey lokasi,
+                        Kami kerjakan <strong class="text-stone-800">semua dari A sampai Z.</strong> Mulai dari survey
+                        lokasi,
                         desain, perizinan, konstruksi, hingga lapangan siap beroperasi. Anda cukup duduk santai dan
                         pantau hasilnya.
                     </p>
                     <div class="flex flex-wrap gap-3 mb-8">
                         <div
                             class="flex items-center gap-2 bg-white border border-stone-200 rounded-lg px-3 py-2 text-sm font-semibold text-stone-700">
-                            <span class="text-lg">🏆</span> 16+ Tahun Pengalaman</div>
+                            <span class="text-lg">🏆</span> 16+ Tahun Pengalaman
+                        </div>
                         <div
                             class="flex items-center gap-2 bg-white border border-stone-200 rounded-lg px-3 py-2 text-sm font-semibold text-stone-700">
-                            <span class="text-lg">📍</span> 100+ Proyek Selesai</div>
+                            <span class="text-lg">📍</span> 100+ Proyek Selesai
+                        </div>
                         <div
                             class="flex items-center gap-2 bg-white border border-stone-200 rounded-lg px-3 py-2 text-sm font-semibold text-stone-700">
-                            <span class="text-lg">🏙</span> 15+ Kota</div>
+                            <span class="text-lg">🏙</span> 15+ Kota
+                        </div>
                     </div>
                     <div class="flex flex-wrap gap-3">
                         <a href="https://wa.me/6281357570064" target="_blank" rel="noopener noreferrer"
@@ -206,10 +210,9 @@ onMounted(() => {
                 <!-- Futsal -->
                 <div
                     class="reveal bg-white rounded-2xl border border-stone-200 overflow-hidden hover:shadow-xl hover:border-[#006400] transition-all">
-                    <div class="img-ph h-52">
-                        <div class="img-ph-text">📸 FOTO LAPANGAN FUTSAL<br>Interior / Eksterior Terbaik<br>(700×420px)
-                        </div>
-                    </div>
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/futsal-img1.png"
+                        alt="Lapangan Futsal Interior Eksterior Terbaik"
+                        class="w-full h-52 object-cover m-0 p-0 border-0" />
                     <div class="p-6">
                         <div class="flex items-start justify-between mb-3">
                             <div>
@@ -376,7 +379,8 @@ onMounted(() => {
                         class="reveal text-center bg-[#f7f5f2] rounded-2xl p-6 border border-stone-200 hover:border-[#006400] transition-colors">
                         <div
                             class="w-14 h-14 bg-[#006400] text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <span class="font-display font-black text-xl">01</span></div>
+                            <span class="font-display font-black text-xl">01</span>
+                        </div>
                         <h3 class="font-bold text-stone-900 mb-1 text-sm">Konsultasi Gratis</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">Ceritakan kebutuhan, lokasi, dan budget. Tim
                             kami respon dalam 1 jam.</p>
@@ -385,7 +389,8 @@ onMounted(() => {
                         style="transition-delay:.08s">
                         <div
                             class="w-14 h-14 bg-[#006400] text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <span class="font-display font-black text-xl">02</span></div>
+                            <span class="font-display font-black text-xl">02</span>
+                        </div>
                         <h3 class="font-bold text-stone-900 mb-1 text-sm">Survey &amp; Desain</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">Tim kami datang ke lokasi, ukur lahan, dan
                             buat desain lapangan sesuai kebutuhan.</p>
@@ -394,7 +399,8 @@ onMounted(() => {
                         style="transition-delay:.16s">
                         <div
                             class="w-14 h-14 bg-[#006400] text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <span class="font-display font-black text-xl">03</span></div>
+                            <span class="font-display font-black text-xl">03</span>
+                        </div>
                         <h3 class="font-bold text-stone-900 mb-1 text-sm">Penawaran Harga</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">RAB &amp; penawaran harga detail dikirim.
                             Transparan, tanpa biaya tersembunyi.</p>
@@ -403,7 +409,8 @@ onMounted(() => {
                         style="transition-delay:.24s">
                         <div
                             class="w-14 h-14 bg-[#006400] text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <span class="font-display font-black text-xl">04</span></div>
+                            <span class="font-display font-black text-xl">04</span>
+                        </div>
                         <h3 class="font-bold text-stone-900 mb-1 text-sm">Konstruksi</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">Pengerjaan oleh tim ahli, tepat waktu. Anda
                             bisa pantau progress setiap hari.</p>
@@ -411,7 +418,8 @@ onMounted(() => {
                     <div class="reveal text-center bg-[#006400] rounded-2xl p-6 text-white"
                         style="transition-delay:.32s">
                         <div class="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <span class="font-display font-black text-xl">05</span></div>
+                            <span class="font-display font-black text-xl">05</span>
+                        </div>
                         <h3 class="font-bold mb-1 text-sm">Lapangan Siap!</h3>
                         <p class="text-xs text-green-200 leading-relaxed">Serah terima lapangan siap pakai. Pelunasan
                             setelah 100% selesai. Garansi aktif!</p>
@@ -775,10 +783,9 @@ onMounted(() => {
         <section class="py-20 px-6 max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-14 items-center">
                 <div class="reveal">
-                    <div class="img-ph rounded-2xl w-full aspect-[4/3] border border-stone-200">
-                        <div class="img-ph-text">📸 FOTO KANTOR / WORKSHOP<br>Tampak Luar Kantor atau Tim
-                            Meeting<br>(600×450px)</div>
-                    </div>
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/hero-img2.png"
+                        alt="Kantor dan Workshop Green Deahan Sport"
+                        class="rounded-2xl w-full aspect-[4/3] object-cover border border-stone-200" />
                 </div>
                 <div class="reveal">
                     <span
@@ -792,7 +799,8 @@ onMounted(() => {
                         padel, dan badminton.</p>
                     <p class="text-stone-600 text-sm leading-relaxed mb-6">Kami menawarkan layanan
                         <strong>turnkey</strong> — dari konsultasi awal, desain, perizinan, konstruksi, hingga lapangan
-                        siap beroperasi. Anda cukup duduk dan pantau progress, kami yang kerjakan semuanya.</p>
+                        siap beroperasi. Anda cukup duduk dan pantau progress, kami yang kerjakan semuanya.
+                    </p>
                     <div class="flex flex-wrap gap-4 mb-6">
                         <div class="text-center bg-[#f7f5f2] border border-stone-200 rounded-xl px-5 py-3">
                             <div class="font-display font-black text-3xl text-[#006400]">16+</div>
@@ -847,76 +855,6 @@ onMounted(() => {
                 <p class="text-green-400 text-xs mt-5">*Konsultasi 100% gratis, tidak ada kewajiban apapun</p>
             </div>
         </section>
-
-        <!-- FOOTER -->
-        <footer class="bg-stone-900 text-stone-400 pt-14 pb-8 px-6">
-            <div class="max-w-6xl mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10">
-                <div class="md:col-span-2">
-                    <div class="flex items-center gap-2.5 mb-4">
-                        <div class="w-9 h-9 bg-[#006400] rounded-lg flex items-center justify-center">
-                            <span class="text-white font-display font-black text-sm">GD</span>
-                        </div>
-                        <div>
-                            <div class="font-display font-black text-white text-base leading-none">Green Deahan Sport
-                            </div>
-                            <div
-                                class="text-[10px] font-semibold text-stone-500 tracking-widest uppercase leading-none mt-0.5">
-                                Sejak 2010</div>
-                        </div>
-                    </div>
-                    <p class="text-sm text-stone-500 leading-relaxed max-w-xs mb-5">Jasa pembuatan lapangan futsal, mini
-                        soccer, padel, dan badminton profesional sejak 2010. Melayani seluruh Indonesia.</p>
-                    <div class="text-sm space-y-2">
-                        <p>📞 <a href="tel:+6281357570064" class="hover:text-white transition-colors">+62
-                                813-5757-0064</a></p>
-                        <p>✉️ <a href="mailto:rumput1927@gmail.com"
-                                class="hover:text-white transition-colors">rumput1927@gmail.com</a></p>
-                        <p>🕐 Senin – Sabtu, 06.00 – 23.00 WIB</p>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-widest">Layanan</h4>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="#layanan" class="hover:text-white transition-colors">Lapangan Futsal</a></li>
-                        <li><a href="#layanan" class="hover:text-white transition-colors">Mini Soccer</a></li>
-                        <li><a href="#layanan" class="hover:text-white transition-colors">Lapangan Padel</a></li>
-                        <li><a href="#layanan" class="hover:text-white transition-colors">Lapangan Badminton</a></li>
-                        <li><a href="#layanan" class="hover:text-white transition-colors">Konsultasi &amp; Survey</a>
-                        </li>
-                        <li><a href="#layanan" class="hover:text-white transition-colors">Maintenance &amp; Servis</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-widest">Halaman</h4>
-                    <ul class="space-y-2 text-sm">
-                        <li>
-                            <NuxtLink to="/" class="hover:text-white transition-colors">Beranda</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/galeri" class="hover:text-white transition-colors">Galeri Proyek</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/blog" class="hover:text-white transition-colors">Blog &amp; Tips</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/kontak" class="hover:text-white transition-colors">Kontak Kami</NuxtLink>
-                        </li>
-                    </ul>
-                    <div class="mt-6">
-                        <h4 class="text-white font-bold text-sm mb-3 uppercase tracking-widest">Wilayah</h4>
-                        <p class="text-xs text-stone-500 leading-relaxed">Jabodetabek · Jawa · Sumatera · Kalimantan ·
-                            Sulawesi · Bali · NTB · Se-Indonesia</p>
-                    </div>
-                </div>
-            </div>
-            <div
-                class="max-w-6xl mx-auto pt-6 border-t border-stone-800 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-stone-600">
-                <p>© 2026 GreenDeahan.com — Jasa Pembuatan Lapangan Futsal, Mini Soccer, Padel &amp; Badminton
-                    Se-Indonesia</p>
-                <p>Dibuat dengan ❤️ untuk Indonesia</p>
-            </div>
-        </footer>
 
     </div>
 </template>
