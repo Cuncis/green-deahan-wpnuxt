@@ -80,19 +80,20 @@ onMounted(() => {
 
         <!-- ══════════════ HERO ══════════════ -->
         <section class="pt-28 pb-0 px-6 max-w-6xl mx-auto">
-            <div class="flex flex-wrap items-center gap-x-6 gap-y-2 mb-8 text-xs font-semibold text-stone-500">
-                <span class="flex items-center gap-1.5"><span
+            <div
+                class="flex flex-wrap items-center divide-x divide-stone-300 mb-8 text-xs font-semibold text-stone-500">
+                <span class="flex items-center gap-1.5 pr-4"><span
                         class="w-2 h-2 rounded-full bg-green-500 animate-pulse inline-block" /> Melayani 24/7</span>
-                <span>⭐ 5.0 Rating dari 100+ Klien</span>
-                <span>✅ Garansi Resmi Konstruksi</span>
-                <span>🗺 Se-Indonesia Sejak 2010</span>
+                <span class="px-4">5.0 Rating dari 100+ Klien</span>
+                <span class="px-4">Garansi Resmi Konstruksi</span>
+                <span class="pl-4">Se-Indonesia Sejak 2010</span>
             </div>
 
             <div class="grid md:grid-cols-2 gap-10 items-center pb-16">
                 <div>
                     <span
-                        class="inline-block bg-green-100 text-[#006400] text-xs font-bold px-3 py-1.5 rounded-full mb-5 tracking-wide">🏗
-                        Jasa Pembuatan Lapangan #1 Se-Indonesia</span>
+                        class="inline-block bg-green-100 text-[#006400] text-xs font-bold px-3 py-1.5 rounded-full mb-5 tracking-wide">Jasa
+                        Pembuatan Lapangan #1 Se-Indonesia</span>
                     <h1
                         class="font-display text-4xl md:text-5xl lg:text-6xl font-black text-stone-900 leading-tight mb-5">
                         Bangun Lapangan Olahraga dari<br>
@@ -105,21 +106,25 @@ onMounted(() => {
                     <div class="flex flex-wrap gap-3 mb-8">
                         <div
                             class="flex items-center gap-2 bg-white border border-stone-200 rounded-lg px-3 py-2 text-sm font-semibold text-stone-700">
-                            <span class="text-lg">🏆</span> 16+ Tahun Pengalaman
+                            <span class="text-lg">⚽</span> Futsal
                         </div>
                         <div
                             class="flex items-center gap-2 bg-white border border-stone-200 rounded-lg px-3 py-2 text-sm font-semibold text-stone-700">
-                            <span class="text-lg">📍</span> 100+ Proyek Selesai
+                            <span class="text-lg">🟢</span> Mini Soccer
                         </div>
                         <div
                             class="flex items-center gap-2 bg-white border border-stone-200 rounded-lg px-3 py-2 text-sm font-semibold text-stone-700">
-                            <span class="text-lg">🏙</span> 15+ Kota
+                            <span class="text-lg">🎾</span> Padel
+                        </div>
+                        <div
+                            class="flex items-center gap-2 bg-white border border-stone-200 rounded-lg px-3 py-2 text-sm font-semibold text-stone-700">
+                            <span class="text-lg">🏸</span> Badminton
                         </div>
                     </div>
                     <div class="flex flex-wrap gap-3">
                         <a href="https://wa.me/6281357570064" target="_blank" rel="noopener noreferrer"
                             class="bg-[#006400] text-white font-bold px-7 py-3.5 rounded-xl hover:bg-[#004d00] transition-colors text-sm flex items-center gap-2 shadow-lg shadow-green-900/20">
-                            💬 Konsultasi Gratis Sekarang
+                            Konsultasi Gratis Sekarang
                         </a>
                         <NuxtLink to="/galeri"
                             class="border-2 border-[#006400] text-[#006400] font-bold px-7 py-3.5 rounded-xl hover:bg-green-50 transition-colors text-sm">
@@ -131,10 +136,9 @@ onMounted(() => {
                 </div>
 
                 <div class="relative">
-                    <div class="img-ph rounded-2xl w-full aspect-[4/3] shadow-xl border border-stone-200">
-                        <div class="img-ph-text">📸 FOTO HERO UTAMA<br>Foto Lapangan Terbaik / Aerial
-                            View<br>(Disarankan: 800×600px)</div>
-                    </div>
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2024/08/photo_24_2024-07-23_10-52-44.jpg"
+                        alt="Lapangan Olahraga Green Deahan Sport"
+                        class="rounded-2xl w-full aspect-[4/3] object-cover shadow-xl border border-stone-200" />
                     <div
                         class="absolute -bottom-5 -left-5 bg-white border border-stone-200 rounded-2xl shadow-lg p-4 flex items-center gap-3">
                         <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center text-2xl">⚽</div>
@@ -154,38 +158,38 @@ onMounted(() => {
         <!-- TICKER -->
         <div class="bg-[#006400] py-3 ticker-wrap border-y border-[#004d00]">
             <div class="ticker-inner">
-                <span class="text-white text-sm font-bold tracking-widest">⚽ FUTSAL</span>
+                <span class="text-white text-sm font-bold tracking-widest">FUTSAL</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🟢 MINI SOCCER</span>
+                <span class="text-white text-sm font-bold tracking-widest">MINI SOCCER</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🎾 PADEL</span>
+                <span class="text-white text-sm font-bold tracking-widest">PADEL</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🏸 BADMINTON</span>
+                <span class="text-white text-sm font-bold tracking-widest">BADMINTON</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">✅ GARANSI RESMI</span>
+                <span class="text-white text-sm font-bold tracking-widest">GARANSI RESMI</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🗺 SE-INDONESIA</span>
+                <span class="text-white text-sm font-bold tracking-widest">SE-INDONESIA</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">💬 KONSULTASI GRATIS</span>
+                <span class="text-white text-sm font-bold tracking-widest">KONSULTASI GRATIS</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🏗 SEJAK 2010</span>
+                <span class="text-white text-sm font-bold tracking-widest">SEJAK 2010</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
                 <!-- duplicate for seamless loop -->
-                <span class="text-white text-sm font-bold tracking-widest">⚽ FUTSAL</span>
+                <span class="text-white text-sm font-bold tracking-widest">FUTSAL</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🟢 MINI SOCCER</span>
+                <span class="text-white text-sm font-bold tracking-widest">MINI SOCCER</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🎾 PADEL</span>
+                <span class="text-white text-sm font-bold tracking-widest">PADEL</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🏸 BADMINTON</span>
+                <span class="text-white text-sm font-bold tracking-widest">BADMINTON</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">✅ GARANSI RESMI</span>
+                <span class="text-white text-sm font-bold tracking-widest">GARANSI RESMI</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🗺 SE-INDONESIA</span>
+                <span class="text-white text-sm font-bold tracking-widest">SE-INDONESIA</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">💬 KONSULTASI GRATIS</span>
+                <span class="text-white text-sm font-bold tracking-widest">KONSULTASI GRATIS</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
-                <span class="text-white text-sm font-bold tracking-widest">🏗 SEJAK 2010</span>
+                <span class="text-white text-sm font-bold tracking-widest">SEJAK 2010</span>
                 <span class="text-green-300 text-sm font-bold tracking-widest">•</span>
             </div>
         </div>
@@ -213,8 +217,8 @@ onMounted(() => {
                         <div class="flex items-start justify-between mb-3">
                             <div>
                                 <span
-                                    class="text-xs font-bold text-[#006400] bg-green-50 px-2.5 py-1 rounded-full border border-green-200">⭐
-                                    Paling Populer</span>
+                                    class="text-xs font-bold text-[#006400] bg-green-50 px-2.5 py-1 rounded-full border border-green-200">Paling
+                                    Populer</span>
                                 <h3 class="font-display text-2xl font-black text-stone-900 mt-2">Lapangan Futsal</h3>
                             </div>
                         </div>
@@ -252,8 +256,8 @@ onMounted(() => {
                         <div class="flex items-start justify-between mb-3">
                             <div>
                                 <span
-                                    class="text-xs font-bold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">🟢
-                                    Outdoor &amp; Indoor</span>
+                                    class="text-xs font-bold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">Outdoor
+                                    &amp; Indoor</span>
                                 <h3 class="font-display text-2xl font-black text-stone-900 mt-2">Mini Soccer</h3>
                             </div>
                         </div>
@@ -290,8 +294,8 @@ onMounted(() => {
                         <div class="flex items-start justify-between mb-3">
                             <div>
                                 <span
-                                    class="text-xs font-bold text-orange-700 bg-orange-50 px-2.5 py-1 rounded-full border border-orange-200">🎾
-                                    Tren Terbaru 2024</span>
+                                    class="text-xs font-bold text-orange-700 bg-orange-50 px-2.5 py-1 rounded-full border border-orange-200">Tren
+                                    Terbaru 2024</span>
                                 <h3 class="font-display text-2xl font-black text-stone-900 mt-2">Lapangan Padel</h3>
                             </div>
                         </div>
@@ -328,8 +332,8 @@ onMounted(() => {
                         <div class="flex items-start justify-between mb-3">
                             <div>
                                 <span
-                                    class="text-xs font-bold text-purple-700 bg-purple-50 px-2.5 py-1 rounded-full border border-purple-200">🏸
-                                    Indoor Specialist</span>
+                                    class="text-xs font-bold text-purple-700 bg-purple-50 px-2.5 py-1 rounded-full border border-purple-200">Indoor
+                                    Specialist</span>
                                 <h3 class="font-display text-2xl font-black text-stone-900 mt-2">Lapangan Badminton</h3>
                             </div>
                         </div>
@@ -424,7 +428,6 @@ onMounted(() => {
 
                 <div
                     class="mt-8 bg-green-50 border border-green-200 rounded-2xl p-5 flex flex-col md:flex-row items-center gap-4 reveal">
-                    <div class="text-3xl">💡</div>
                     <p class="text-sm text-stone-700 leading-relaxed">
                         <strong>Sistem Pembayaran Aman:</strong> Bayar uang muka (DP) di awal, pelunasan dilakukan
                         <strong>setelah lapangan selesai 100%</strong>. Anda tidak perlu khawatir, kami yang menanggung
@@ -488,7 +491,7 @@ onMounted(() => {
                         </div>
                     </div>
                     <div class="bg-white p-4">
-                        <span class="text-xs font-bold text-[#006400]">⚽ Futsal</span>
+                        <span class="text-xs font-bold text-[#006400]">Futsal</span>
                         <h4 class="font-bold text-stone-900 mt-1">Futsal Arena Jakarta Selatan</h4>
                         <p class="text-xs text-stone-500 mt-1">Lantai interlock + pencahayaan LED. Selesai dalam 21 hari
                             kerja.</p>
@@ -500,7 +503,7 @@ onMounted(() => {
                         alt="Mini Soccer Outdoor Surabaya"
                         class="h-52 w-full object-cover group-hover:scale-105 transition-transform duration-500 m-0 p-0 border-0" />
                     <div class="bg-white p-4">
-                        <span class="text-xs font-bold text-blue-600">🟢 Mini Soccer</span>
+                        <span class="text-xs font-bold text-blue-600">Mini Soccer</span>
                         <h4 class="font-bold text-stone-900 mt-1">Mini Soccer Outdoor Surabaya</h4>
                         <p class="text-xs text-stone-500 mt-1">Rumput sintetis premium + tribun penonton. Kapasitas 200
                             orang.</p>
@@ -512,7 +515,7 @@ onMounted(() => {
                         <div class="img-ph-text">📸 FOTO PROYEK 3<br>Lapangan Padel, Medan<br>(700×420px)</div>
                     </div>
                     <div class="bg-white p-4">
-                        <span class="text-xs font-bold text-orange-600">🎾 Padel</span>
+                        <span class="text-xs font-bold text-orange-600">Padel</span>
                         <h4 class="font-bold text-stone-900 mt-1">Padel Premium Medan</h4>
                         <p class="text-xs text-stone-500 mt-1">Standar internasional IFF. Kaca tempered, rangka baja
                             galvanis.</p>
@@ -524,7 +527,7 @@ onMounted(() => {
                         <div class="img-ph-text">📸 FOTO PROYEK 4<br>Badminton Indoor, Bandung<br>(700×420px)</div>
                     </div>
                     <div class="bg-white p-4">
-                        <span class="text-xs font-bold text-purple-600">🏸 Badminton</span>
+                        <span class="text-xs font-bold text-purple-600">Badminton</span>
                         <h4 class="font-bold text-stone-900 mt-1">Badminton 4 Court Bandung</h4>
                         <p class="text-xs text-stone-500 mt-1">Lantai interlock, LED anti-silau. 4 court dalam 1
                             gedung.</p>
@@ -536,7 +539,7 @@ onMounted(() => {
                         <div class="img-ph-text">📸 FOTO PROYEK 5<br>Futsal Outdoor, Makassar<br>(700×420px)</div>
                     </div>
                     <div class="bg-white p-4">
-                        <span class="text-xs font-bold text-[#006400]">⚽ Futsal</span>
+                        <span class="text-xs font-bold text-[#006400]">Futsal</span>
                         <h4 class="font-bold text-stone-900 mt-1">Futsal Outdoor Makassar</h4>
                         <p class="text-xs text-stone-500 mt-1">Rumput sintetis tahan cuaca, sistem drainase anti banjir.
                         </p>
@@ -548,7 +551,7 @@ onMounted(() => {
                         <div class="img-ph-text">📸 FOTO PROYEK 6<br>Mini Soccer Indoor, Semarang<br>(700×420px)</div>
                     </div>
                     <div class="bg-white p-4">
-                        <span class="text-xs font-bold text-blue-600">🟢 Mini Soccer</span>
+                        <span class="text-xs font-bold text-blue-600">Mini Soccer</span>
                         <h4 class="font-bold text-stone-900 mt-1">Mini Soccer Indoor Semarang</h4>
                         <p class="text-xs text-stone-500 mt-1">Full roof + pencahayaan. Bisa dipakai malam hari
                             non-stop.</p>
@@ -819,8 +822,8 @@ onMounted(() => {
         <section class="py-20 px-6 bg-[#006400]">
             <div class="max-w-3xl mx-auto text-center">
                 <span
-                    class="inline-block bg-white/20 text-white text-xs font-bold px-3 py-1.5 rounded-full mb-5 tracking-wide">🎯
-                    Siap Mulai Proyek Anda?</span>
+                    class="inline-block bg-white/20 text-white text-xs font-bold px-3 py-1.5 rounded-full mb-5 tracking-wide">Siap
+                    Mulai Proyek Anda?</span>
                 <h2 class="font-display text-3xl md:text-5xl font-black text-white mb-4 leading-tight">
                     Wujudkan Lapangan<br>Impian Anda Sekarang!
                 </h2>
@@ -832,11 +835,16 @@ onMounted(() => {
                     <a href="https://wa.me/6281357570064?text=Halo%20GreenDeahan,%20saya%20ingin%20konsultasi%20pembuatan%20lapangan"
                         target="_blank" rel="noopener noreferrer"
                         class="bg-white text-[#006400] font-black px-8 py-4 rounded-xl hover:bg-green-50 transition-colors text-sm flex items-center justify-center gap-2 shadow-xl">
-                        💬 Chat WhatsApp Sekarang
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 flex-shrink-0" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        Chat WhatsApp Sekarang
                     </a>
                     <a href="tel:+6281357570064"
                         class="border-2 border-white text-white font-bold px-8 py-4 rounded-xl hover:bg-white/10 transition-colors text-sm flex items-center justify-center gap-2">
-                        📞 +62 813-5757-0064
+                        +62 813-5757-0064
                     </a>
                 </div>
                 <p class="text-green-400 text-xs mt-5">*Konsultasi 100% gratis, tidak ada kewajiban apapun</p>

@@ -111,7 +111,6 @@ onMounted(() => {
                     class="font-display font-black text-sm text-stone-900 mb-1 group-hover:text-[#25d366] transition-colors">
                     WhatsApp</div>
                 <div class="font-bold text-[#006400] text-sm mb-1">+62 813-5757-0064</div>
-                <div class="text-xs text-stone-400">Chat langsung · Respon cepat</div>
                 <div
                     class="mt-3 text-xs font-bold text-white bg-[#25d366] px-4 py-1.5 rounded-full w-full text-center group-hover:bg-[#1fbc5a] transition-colors">
                     Chat Sekarang →
@@ -131,7 +130,6 @@ onMounted(() => {
                     class="font-display font-black text-sm text-stone-900 mb-1 group-hover:text-[#006400] transition-colors">
                     Telepon</div>
                 <div class="font-bold text-[#006400] text-sm mb-1">+62 813-5757-0064</div>
-                <div class="text-xs text-stone-400">Senin–Sabtu · 06.00–23.00</div>
                 <div
                     class="mt-3 text-xs font-bold text-white bg-[#006400] px-4 py-1.5 rounded-full w-full text-center group-hover:bg-[#004d00] transition-colors">
                     Hubungi →
@@ -151,7 +149,6 @@ onMounted(() => {
                     class="font-display font-black text-sm text-stone-900 mb-1 group-hover:text-red-500 transition-colors">
                     Email</div>
                 <div class="font-bold text-[#006400] text-xs mb-1 break-all">rumput1927@gmail.com</div>
-                <div class="text-xs text-stone-400">Balas dalam 1×24 jam</div>
                 <div
                     class="mt-3 text-xs font-bold text-white bg-red-500 px-4 py-1.5 rounded-full w-full text-center group-hover:bg-red-600 transition-colors">
                     Kirim Email →
@@ -176,10 +173,6 @@ onMounted(() => {
                     <div class="flex justify-between text-green-200"><span>Minggu</span><span
                             class="font-bold text-yellow-300">Konsultasi Online</span></div>
                 </div>
-                <div class="mt-4 flex items-center gap-1.5 text-xs text-green-200">
-                    <span class="w-2 h-2 rounded-full bg-green-400 inline-block animate-pulse"></span>
-                    Tim sedang online
-                </div>
             </div>
         </div>
     </section>
@@ -196,8 +189,6 @@ onMounted(() => {
                             class="inline-block bg-green-100 text-[#006400] text-xs font-bold px-3 py-1.5 rounded-full mb-3 tracking-wide">📋
                             Formulir Kontak</span>
                         <h2 class="font-display font-black text-2xl text-stone-900">Kirim Pesan ke Kami</h2>
-                        <p class="text-stone-500 text-sm mt-1">Isi formulir di bawah ini, tim kami akan menghubungi Anda
-                            dalam 1 jam kerja.</p>
                     </div>
 
                     <!-- Success state -->
@@ -350,8 +341,7 @@ onMounted(() => {
                                 🕐</div>
                             <div>
                                 <p class="text-xs font-bold text-stone-400 uppercase tracking-wide mb-0.5">Jam Kerja</p>
-                                <p class="font-semibold text-stone-900 text-sm">Senin – Sabtu: 06.00 – 23.00 WIB</p>
-                                <p class="text-xs text-stone-400">Minggu: Konsultasi online via WA</p>
+                                <p class="font-semibold text-stone-900 text-sm">Senin - Sabtu: 06.00 - 23.00 WIB</p>
                             </div>
                         </div>
                         <div class="flex gap-3.5">
@@ -362,8 +352,6 @@ onMounted(() => {
                                 <p class="text-xs font-bold text-stone-400 uppercase tracking-wide mb-0.5">Area Layanan
                                 </p>
                                 <p class="font-semibold text-stone-900 text-sm">Seluruh Indonesia</p>
-                                <p class="text-xs text-stone-400">Jabodetabek · Jawa · Sumatera · Kalimantan · Sulawesi
-                                    · Bali & NTB</p>
                             </div>
                         </div>
                     </div>
