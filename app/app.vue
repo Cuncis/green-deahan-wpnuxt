@@ -1,6 +1,27 @@
+<script setup lang="ts">
+const nuxtApp = useNuxtApp()
+const loading = ref(false)
+let loadingTimer: ReturnType<typeof setTimeout> | null = null
+
+nuxtApp.hook('page:loading:start', () => {
+  loadingTimer = setTimeout(() => { loading.value = true }, 500)
+})
+
+nuxtApp.hook('page:loading:end', () => {
+  if (loadingTimer) { clearTimeout(loadingTimer); loadingTimer = null }
+  loading.value = false
+})
+</script>
+
 <template>
   <div>
     <SiteNav />
+    <!-- Page loading bar (shown after 500ms delay) -->
+    <Transition name="loading-bar">
+      <div v-if="loading" class="page-loading-bar">
+        <div class="page-loading-progress" />
+      </div>
+    </Transition>
     <NuxtPage />
     <SiteFooter />
   </div>
@@ -67,6 +88,52 @@ body {
   transform: translateY(0);
 }
 
+/* Page loading bar */
+.page-loading-bar {
+  position: fixed;
+  top: 64px;
+  /* sits just below the fixed nav */
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(0, 100, 0, .15);
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.page-loading-progress {
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(90deg, #006400, #22c55e, #006400);
+  background-size: 200% 100%;
+  border-radius: 0 2px 2px 0;
+  animation: loading-slide 1.2s ease-in-out infinite;
+}
+
+@keyframes loading-slide {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  60% {
+    transform: translateX(300%);
+  }
+
+  100% {
+    transform: translateX(300%);
+  }
+}
+
+.loading-bar-enter-active,
+.loading-bar-leave-active {
+  transition: opacity .2s ease;
+}
+
+.loading-bar-enter-from,
+.loading-bar-leave-to {
+  opacity: 0;
+}
+
 .ticker-wrap {
   overflow: hidden;
 }
@@ -131,12 +198,21 @@ body {
 }
 
 @media (max-width: 768px) {
-  .gal-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 180px; }
-  .tall { grid-row: span 1; }
+  .gal-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+  }
+
+  .tall {
+    grid-row: span 1;
+  }
 }
 
 @media (max-width: 480px) {
-  .gal-grid { grid-template-columns: 1fr; grid-auto-rows: 200px; }
+  .gal-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 200px;
+  }
 }
 
 .gal-item {
@@ -167,6 +243,11 @@ body {
   gap: .5rem;
 }
 
-.gal-item:hover .overlay { opacity: 1; }
-.tall { grid-row: span 2; }
+.gal-item:hover .overlay {
+  opacity: 1;
+}
+
+.tall {
+  grid-row: span 2;
+}
 </style>

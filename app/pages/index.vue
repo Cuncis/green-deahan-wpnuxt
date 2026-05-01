@@ -485,72 +485,72 @@ onMounted(() => {
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
                 <div
-                    class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all">
+                    class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
                         <div class="img-ph-text">📸 FOTO PROYEK 1<br>Futsal Indoor, Jakarta Selatan<br>(700×420px)
                         </div>
                     </div>
-                    <div class="bg-white p-4">
+                    <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-[#006400]">Futsal</span>
                         <h4 class="font-bold text-stone-900 mt-1">Futsal Arena Jakarta Selatan</h4>
                         <p class="text-xs text-stone-500 mt-1">Lantai interlock + pencahayaan LED. Selesai dalam 21 hari
                             kerja.</p>
                     </div>
                 </div>
-                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
+                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.08s">
                     <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/minisoccer-img1.png"
                         alt="Mini Soccer Outdoor Surabaya"
                         class="h-52 w-full object-cover group-hover:scale-105 transition-transform duration-500 m-0 p-0 border-0" />
-                    <div class="bg-white p-4">
+                    <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-blue-600">Mini Soccer</span>
                         <h4 class="font-bold text-stone-900 mt-1">Mini Soccer Outdoor Surabaya</h4>
                         <p class="text-xs text-stone-500 mt-1">Rumput sintetis premium + tribun penonton. Kapasitas 200
                             orang.</p>
                     </div>
                 </div>
-                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
+                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.16s">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
                         <div class="img-ph-text">📸 FOTO PROYEK 3<br>Lapangan Padel, Medan<br>(700×420px)</div>
                     </div>
-                    <div class="bg-white p-4">
+                    <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-orange-600">Padel</span>
                         <h4 class="font-bold text-stone-900 mt-1">Padel Premium Medan</h4>
                         <p class="text-xs text-stone-500 mt-1">Standar internasional IFF. Kaca tempered, rangka baja
                             galvanis.</p>
                     </div>
                 </div>
-                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
+                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.08s">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
                         <div class="img-ph-text">📸 FOTO PROYEK 4<br>Badminton Indoor, Bandung<br>(700×420px)</div>
                     </div>
-                    <div class="bg-white p-4">
+                    <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-purple-600">Badminton</span>
                         <h4 class="font-bold text-stone-900 mt-1">Badminton 4 Court Bandung</h4>
                         <p class="text-xs text-stone-500 mt-1">Lantai interlock, LED anti-silau. 4 court dalam 1
                             gedung.</p>
                     </div>
                 </div>
-                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
+                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.16s">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
                         <div class="img-ph-text">📸 FOTO PROYEK 5<br>Futsal Outdoor, Makassar<br>(700×420px)</div>
                     </div>
-                    <div class="bg-white p-4">
+                    <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-[#006400]">Futsal</span>
                         <h4 class="font-bold text-stone-900 mt-1">Futsal Outdoor Makassar</h4>
                         <p class="text-xs text-stone-500 mt-1">Rumput sintetis tahan cuaca, sistem drainase anti banjir.
                         </p>
                     </div>
                 </div>
-                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
+                <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.24s">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
                         <div class="img-ph-text">📸 FOTO PROYEK 6<br>Mini Soccer Indoor, Semarang<br>(700×420px)</div>
                     </div>
-                    <div class="bg-white p-4">
+                    <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-blue-600">Mini Soccer</span>
                         <h4 class="font-bold text-stone-900 mt-1">Mini Soccer Indoor Semarang</h4>
                         <p class="text-xs text-stone-500 mt-1">Full roof + pencahayaan. Bisa dipakai malam hari

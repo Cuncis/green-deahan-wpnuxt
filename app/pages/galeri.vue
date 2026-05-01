@@ -120,7 +120,7 @@ onMounted(() => {
                             </span>
                             <h3 class="font-display font-black text-lg text-stone-900">{{ lightboxItem?.title }}</h3>
                             <p class="text-sm text-stone-500 mt-1">{{ lightboxItem?.desc }} | 📍 {{ lightboxItem?.kota
-                            }} | 🧱 {{ lightboxItem?.material }}</p>
+                                }} | 🧱 {{ lightboxItem?.material }}</p>
                         </div>
                         <a href="https://wa.me/6281357570064" target="_blank" rel="noopener noreferrer"
                             class="flex-shrink-0 bg-[#006400] text-white text-xs font-bold px-4 py-2.5 rounded-lg hover:bg-[#004d00] transition-colors whitespace-nowrap">
@@ -166,10 +166,6 @@ onMounted(() => {
                         <div class="font-display font-black text-2xl text-[#006400]">15+</div>
                         <div class="text-xs text-stone-400 font-semibold mt-0.5">Kota</div>
                     </div>
-                    <div class="text-center bg-white border border-stone-200 rounded-xl px-5 py-3">
-                        <div class="font-display font-black text-2xl text-[#006400]">4</div>
-                        <div class="text-xs text-stone-400 font-semibold mt-0.5">Jenis</div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -186,7 +182,6 @@ onMounted(() => {
                         : 'bg-white text-stone-600 border-stone-200 hover:border-[#006400] hover:text-[#006400]'
                 ]" @click="activeFilter = tab.key">
                     {{ tab.label }}
-                    <span class="ml-1 text-xs opacity-70">({{ countFor(tab.key) }})</span>
                 </button>
             </div>
         </div>
@@ -195,9 +190,6 @@ onMounted(() => {
     <!-- Gallery grid -->
     <section class="py-10 px-6 max-w-6xl mx-auto">
         <div class="flex items-center justify-between mb-6 reveal">
-            <p class="text-sm text-stone-500">
-                <span class="font-bold text-stone-800">{{ filteredItems.length }}</span> foto ditampilkan
-            </p>
             <p class="text-xs text-stone-400 italic">Klik foto untuk lihat detail</p>
         </div>
 

@@ -40,11 +40,26 @@ function stripHtml(html: string) {
     return html?.replace(/<[^>]*>/g, '') ?? ''
 }
 
-onMounted(() => {
-    const obs = new IntersectionObserver(entries => {
-        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target) } })
+let revealObserver: IntersectionObserver | null = null
+
+function initReveal() {
+    if (revealObserver) revealObserver.disconnect()
+    revealObserver = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+            if (e.isIntersecting) {
+                e.target.classList.add('visible')
+                revealObserver?.unobserve(e.target)
+            }
+        })
     }, { threshold: 0.08 })
-    document.querySelectorAll('.reveal').forEach(el => obs.observe(el))
+    document.querySelectorAll('.reveal:not(.visible)').forEach(el => revealObserver!.observe(el))
+}
+
+onMounted(initReveal)
+
+watch([filteredPosts, searchQuery, activeCategory], async () => {
+    await nextTick()
+    initReveal()
 })
 </script>
 
