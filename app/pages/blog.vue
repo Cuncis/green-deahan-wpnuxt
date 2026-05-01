@@ -4,7 +4,7 @@ useHead({ title: 'Blog & Tips Lapangan Olahraga | Green Deahan Sport' })
 const searchQuery = ref('')
 const activeCategory = ref('semua')
 
-const { data: postsData, status } = await usePosts({ first: 20 })
+const { data: postsData } = await usePosts({ first: 20 })
 
 const posts = computed(() => postsData.value ?? [])
 
@@ -107,7 +107,7 @@ watch([filteredPosts, searchQuery, activeCategory], async () => {
     </section>
 
     <!-- Loading state -->
-    <section v-if="status === 'pending'" class="px-6 max-w-6xl mx-auto py-16 text-center">
+    <section v-if="postsData === null" class="px-6 max-w-6xl mx-auto py-16 text-center">
         <div
             class="inline-block w-10 h-10 border-4 border-[#006400] border-t-transparent rounded-full animate-spin mb-4">
         </div>
@@ -115,7 +115,7 @@ watch([filteredPosts, searchQuery, activeCategory], async () => {
     </section>
 
     <!-- Error state -->
-    <section v-else-if="status === 'error'" class="px-6 max-w-6xl mx-auto py-16 text-center">
+    <section v-else-if="postsData === undefined" class="px-6 max-w-6xl mx-auto py-16 text-center">
         <div class="text-5xl mb-4">⚠️</div>
         <h3 class="font-display font-black text-xl text-stone-700 mb-2">Gagal memuat artikel</h3>
         <p class="text-stone-400 text-sm">Silakan coba lagi nanti.</p>
@@ -205,7 +205,7 @@ watch([filteredPosts, searchQuery, activeCategory], async () => {
         </div>
 
         <!-- Empty state -->
-        <div v-else-if="status !== 'pending'" class="text-center py-20">
+        <div v-else-if="postsData !== null" class="text-center py-20">
             <div class="text-5xl mb-4">📭</div>
             <h3 class="font-display font-black text-xl text-stone-700 mb-2">
                 {{ searchQuery ? 'Artikel tidak ditemukan' : 'Belum ada artikel' }}

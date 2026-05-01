@@ -91,13 +91,11 @@ body {
 /* Page loading bar */
 .page-loading-bar {
   position: fixed;
-  top: 64px;
-  /* sits just below the fixed nav */
+  top: 0;
   left: 0;
   right: 0;
   height: 3px;
-  background: rgba(0, 100, 0, .15);
-  z-index: 9999;
+  z-index: 99999;
   overflow: hidden;
 }
 

@@ -295,7 +295,7 @@ onMounted(() => {
                             <div>
                                 <span
                                     class="text-xs font-bold text-orange-700 bg-orange-50 px-2.5 py-1 rounded-full border border-orange-200">Tren
-                                    Terbaru 2024</span>
+                                    Terbaru 2025</span>
                                 <h3 class="font-display text-2xl font-black text-stone-900 mt-2">Lapangan Padel</h3>
                             </div>
                         </div>
@@ -644,10 +644,9 @@ onMounted(() => {
                     </div>
 
                     <div class="reveal space-y-5">
-                        <div class="img-ph rounded-2xl w-full aspect-[4/3] border border-stone-200">
-                            <div class="img-ph-text">📸 FOTO TIM / WORKSHOP<br>Tim Sedang Bekerja / Foto
-                                Kantor<br>(600×450px)</div>
-                        </div>
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/hero-img2.png"
+                            alt="Tim Green Deahan Sedang Bekerja"
+                            class="rounded-2xl w-full aspect-[4/3] object-cover border border-stone-200" />
                         <div class="bg-[#f7f5f2] border border-stone-200 rounded-2xl p-5">
                             <p class="text-xs font-bold text-stone-400 uppercase tracking-widest mb-4">Cakupan Wilayah
                                 Layanan</p>
@@ -782,7 +781,7 @@ onMounted(() => {
         <section class="py-20 px-6 max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-14 items-center">
                 <div class="reveal">
-                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/hero-img2.png"
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/profile-img1.jpg"
                         alt="Kantor dan Workshop Green Deahan Sport"
                         class="rounded-2xl w-full aspect-[4/3] object-cover border border-stone-200" />
                 </div>
