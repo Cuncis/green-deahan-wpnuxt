@@ -1,17 +1,17 @@
 <script setup lang="ts">
 useHead({
-    title: 'Green Deahan Sport — Jasa Pembuatan Lapangan Futsal, Mini Soccer, Padel & Badminton Se-Indonesia',
+    title: 'Green Deahan Sport | Jasa Pembuatan Lapangan Futsal, Mini Soccer, Padel & Badminton Se-Indonesia',
 })
 
 // FAQ
 const faqs = [
     {
         q: 'Apakah GreenDeahan mengerjakan proyek dari nol?',
-        a: 'Ya, kami mengerjakan proyek dari nol sampai selesai. Mulai dari konsultasi awal, survey lokasi, desain, perizinan, pengadaan material, konstruksi, hingga lapangan siap beroperasi. Anda tidak perlu koordinasi dengan banyak pihak — cukup hubungi kami saja.',
+        a: 'Ya, kami mengerjakan proyek dari nol sampai selesai. Mulai dari konsultasi awal, survey lokasi, desain, perizinan, pengadaan material, konstruksi, hingga lapangan siap beroperasi. Anda tidak perlu koordinasi dengan banyak pihak, cukup hubungi kami saja.',
     },
     {
         q: 'Lantai apa saja yang tersedia dan apa bedanya?',
-        a: 'Kami menyediakan: <strong>Lantai Interlock</strong> — awet, mudah diperbaiki jika rusak sebagian, cocok indoor, harga lebih terjangkau. <strong>Rumput Sintetis</strong> — estetik, nyaman untuk outdoor, tahan cuaca. <strong>Interlock</strong> — khusus badminton/indoor, non-slip dan ramah lutut. <strong>Artificial Grass Padel</strong> — khusus lapangan padel standar internasional.',
+        a: 'Kami menyediakan: <strong>Lantai Interlock</strong>: awet, mudah diperbaiki jika rusak sebagian, cocok indoor, harga lebih terjangkau. <strong>Rumput Sintetis</strong>: estetik, nyaman untuk outdoor, tahan cuaca. <strong>Interlock</strong>: khusus badminton/indoor, non-slip dan ramah lutut. <strong>Artificial Grass Padel</strong>: khusus lapangan padel standar internasional.',
     },
     {
         q: 'Berapa lama waktu pengerjaan konstruksi lapangan?',
@@ -27,7 +27,7 @@ const faqs = [
     },
     {
         q: 'Apakah melayani daerah luar Jawa?',
-        a: 'Kami melayani seluruh Indonesia — Jabodetabek, Jawa Tengah & Timur, Sumatera, Kalimantan, Sulawesi, Bali, NTB, dan wilayah lainnya. Tim lapangan kami akan bergerak ke lokasi Anda. Konsultasikan dulu kebutuhan dan lokasi Anda via WhatsApp.',
+        a: 'Kami melayani seluruh Indonesia, meliputi Jabodetabek, Jawa Tengah & Timur, Sumatera, Kalimantan, Sulawesi, Bali, NTB, dan wilayah lainnya. Tim lapangan kami akan bergerak ke lokasi Anda. Konsultasikan dulu kebutuhan dan lokasi Anda via WhatsApp.',
     },
 ]
 
@@ -95,16 +95,12 @@ onMounted(() => {
                         Jasa Pembuatan Lapangan #1 Se-Indonesia</span>
                     <h1
                         class="font-display text-4xl md:text-5xl lg:text-6xl font-black text-stone-900 leading-tight mb-5">
-                        Bangun Lapangan<br>
-                        <span class="text-[#006400]">Futsal, Mini Soccer,</span><br>
-                        Padel &amp; Badminton<br>
-                        dari Nol — Siap Pakai!
+                        Bangun Lapangan Olahraga dari<br>
+                        <span class="text-[#006400]">Nol sampai Siap Beroperasi</span>
                     </h1>
                     <p class="text-stone-500 text-base md:text-lg leading-relaxed mb-6 max-w-lg">
-                        Kami kerjakan <strong class="text-stone-800">semua dari A sampai Z.</strong> Mulai dari survey
-                        lokasi,
-                        desain, perizinan, konstruksi, hingga lapangan siap beroperasi. Anda cukup duduk santai dan
-                        pantau hasilnya.
+                        Satu mitra, semua dikerjakan. <strong class="text-stone-800">Survey, desain, konstruksi, hingga
+                            serah terima.</strong> Anda tinggal pantau hasilnya.
                     </p>
                     <div class="flex flex-wrap gap-3 mb-8">
                         <div
@@ -301,7 +297,7 @@ onMounted(() => {
                         </div>
                         <p class="text-stone-500 text-sm leading-relaxed mb-4">Spesialis konstruksi lapangan padel
                             standar internasional (IFF). Dari struktur rangka baja, kaca tempered, hingga lantai
-                            artificial grass padel — semua <strong>all-in-one service</strong>.</p>
+                            artificial grass padel, semua <strong>all-in-one service</strong>.</p>
                         <ul class="text-sm text-stone-600 space-y-1.5 mb-5">
                             <li class="flex items-center gap-2"><span class="text-[#006400] font-bold">✓</span> Rangka
                                 baja galvanis anti karat</li>
@@ -488,7 +484,7 @@ onMounted(() => {
                 <div
                     class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 1<br>Futsal Indoor — Jakarta Selatan<br>(700×420px)
+                        <div class="img-ph-text">📸 FOTO PROYEK 1<br>Futsal Indoor, Jakarta Selatan<br>(700×420px)
                         </div>
                     </div>
                     <div class="bg-white p-4">
@@ -513,7 +509,7 @@ onMounted(() => {
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
                     style="transition-delay:.16s">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 3<br>Lapangan Padel — Medan<br>(700×420px)</div>
+                        <div class="img-ph-text">📸 FOTO PROYEK 3<br>Lapangan Padel, Medan<br>(700×420px)</div>
                     </div>
                     <div class="bg-white p-4">
                         <span class="text-xs font-bold text-orange-600">🎾 Padel</span>
@@ -525,7 +521,7 @@ onMounted(() => {
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
                     style="transition-delay:.08s">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 4<br>Badminton Indoor — Bandung<br>(700×420px)</div>
+                        <div class="img-ph-text">📸 FOTO PROYEK 4<br>Badminton Indoor, Bandung<br>(700×420px)</div>
                     </div>
                     <div class="bg-white p-4">
                         <span class="text-xs font-bold text-purple-600">🏸 Badminton</span>
@@ -537,7 +533,7 @@ onMounted(() => {
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
                     style="transition-delay:.16s">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 5<br>Futsal Outdoor — Makassar<br>(700×420px)</div>
+                        <div class="img-ph-text">📸 FOTO PROYEK 5<br>Futsal Outdoor, Makassar<br>(700×420px)</div>
                     </div>
                     <div class="bg-white p-4">
                         <span class="text-xs font-bold text-[#006400]">⚽ Futsal</span>
@@ -549,7 +545,7 @@ onMounted(() => {
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 group hover:shadow-lg transition-all"
                     style="transition-delay:.24s">
                     <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 6<br>Mini Soccer Indoor — Semarang<br>(700×420px)</div>
+                        <div class="img-ph-text">📸 FOTO PROYEK 6<br>Mini Soccer Indoor, Semarang<br>(700×420px)</div>
                     </div>
                     <div class="bg-white p-4">
                         <span class="text-xs font-bold text-blue-600">🟢 Mini Soccer</span>
