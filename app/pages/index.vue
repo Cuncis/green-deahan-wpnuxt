@@ -210,7 +210,7 @@ onMounted(() => {
                 <!-- Futsal -->
                 <div
                     class="reveal bg-white rounded-2xl border border-stone-200 overflow-hidden hover:shadow-xl hover:border-[#006400] transition-all">
-                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/futsal-img1.png"
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/futsal-img4.png"
                         alt="Lapangan Futsal Interior Eksterior Terbaik"
                         class="w-full h-52 object-cover m-0 p-0 border-0" />
                     <div class="p-6">
@@ -248,10 +248,8 @@ onMounted(() => {
                 <!-- Mini Soccer -->
                 <div class="reveal bg-white rounded-2xl border border-stone-200 overflow-hidden hover:shadow-xl hover:border-[#006400] transition-all"
                     style="transition-delay:.08s">
-                    <div class="img-ph h-52">
-                        <div class="img-ph-text">📸 FOTO LAPANGAN MINI SOCCER<br>Tampak Atas / Full
-                            Lapangan<br>(700×420px)</div>
-                    </div>
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/minisoccer-img1.png"
+                        alt="Lapangan Mini Soccer" class="w-full h-52 object-cover m-0 p-0 border-0" />
                     <div class="p-6">
                         <div class="flex items-start justify-between mb-3">
                             <div>
@@ -286,10 +284,8 @@ onMounted(() => {
                 <!-- Padel -->
                 <div class="reveal bg-white rounded-2xl border border-stone-200 overflow-hidden hover:shadow-xl hover:border-[#006400] transition-all"
                     style="transition-delay:.16s">
-                    <div class="img-ph h-52">
-                        <div class="img-ph-text">📸 FOTO LAPANGAN PADEL<br>Struktur Kaca / Full View<br>(700×420px)
-                        </div>
-                    </div>
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/padel-img1.png"
+                        alt="Lapangan Padel" class="w-full h-52 object-cover m-0 p-0 border-0" />
                     <div class="p-6">
                         <div class="flex items-start justify-between mb-3">
                             <div>
@@ -324,10 +320,8 @@ onMounted(() => {
                 <!-- Badminton -->
                 <div class="reveal bg-white rounded-2xl border border-stone-200 overflow-hidden hover:shadow-xl hover:border-[#006400] transition-all"
                     style="transition-delay:.24s">
-                    <div class="img-ph h-52">
-                        <div class="img-ph-text">📸 FOTO LAPANGAN BADMINTON<br>Tampak Dalam / Full Court<br>(700×420px)
-                        </div>
-                    </div>
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/badmintoon-img1.png"
+                        alt="Lapangan Badminton" class="w-full h-52 object-cover m-0 p-0 border-0" />
                     <div class="p-6">
                         <div class="flex items-start justify-between mb-3">
                             <div>
@@ -694,10 +688,8 @@ onMounted(() => {
                         tapi GreenDeahan handle semuanya dengan profesional. Lapangan futsal saya sudah balik modal
                         dalam 8 bulan."</p>
                     <div class="flex items-center gap-3 pt-4 border-t border-stone-100">
-                        <div class="img-ph w-11 h-11 rounded-full flex-shrink-0">
-                            <div class="img-ph-text"
-                                style="font-size:.55rem;padding:.2rem;border:none;background:none;">📸</div>
-                        </div>
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/foto1.webp"
+                            alt="Budi Santoso" class="w-11 h-11 rounded-full object-cover flex-shrink-0" />
                         <div>
                             <div class="font-bold text-stone-900 text-sm">Budi Santoso</div>
                             <div class="text-xs text-stone-400">Owner Futsal, Jakarta Selatan</div>
@@ -711,10 +703,8 @@ onMounted(() => {
                         gratisnya detail banget, bantu pilih material sesuai budget. Lapangan mini soccer saya jadi yang
                         paling ramai di daerah. Recommended 100%!"</p>
                     <div class="flex items-center gap-3 pt-4 border-t border-stone-100">
-                        <div class="img-ph w-11 h-11 rounded-full flex-shrink-0">
-                            <div class="img-ph-text"
-                                style="font-size:.55rem;padding:.2rem;border:none;background:none;">📸</div>
-                        </div>
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/foto2.jpg"
+                            alt="Ahmad Wijaya" class="w-11 h-11 rounded-full object-cover flex-shrink-0" />
                         <div>
                             <div class="font-bold text-stone-900 text-sm">Ahmad Wijaya</div>
                             <div class="text-xs text-stone-400">Pengusaha, Surabaya</div>
@@ -728,10 +718,8 @@ onMounted(() => {
                         kami dikerjakan GreenDeahan. Dari desain sampai konstruksi standar internasional. Garansi dan
                         after sales service-nya juga top!"</p>
                     <div class="flex items-center gap-3 pt-4 border-t border-stone-100">
-                        <div class="img-ph w-11 h-11 rounded-full flex-shrink-0">
-                            <div class="img-ph-text"
-                                style="font-size:.55rem;padding:.2rem;border:none;background:none;">📸</div>
-                        </div>
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/foto3.jpg"
+                            alt="Ricky Pratama" class="w-11 h-11 rounded-full object-cover flex-shrink-0" />
                         <div>
                             <div class="font-bold text-stone-900 text-sm">Ricky Pratama</div>
                             <div class="text-xs text-stone-400">Investor, Medan</div>
