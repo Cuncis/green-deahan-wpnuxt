@@ -7,6 +7,9 @@ export default defineNuxtConfig({
       wordpressUrl: process.env.WPNUXT_WORDPRESS_URL,
     }],
   ],
+  graphqlMiddleware: {
+    downloadSchema: 'dev-only',
+  },
   app: {
     head: {
       link: [
