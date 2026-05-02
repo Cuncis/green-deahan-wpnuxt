@@ -201,7 +201,7 @@ onMounted(() => {
                 <!-- Futsal -->
                 <div
                     class="reveal bg-white rounded-2xl border border-stone-200 overflow-hidden hover:shadow-xl hover:border-[#006400] transition-all">
-                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/futsal-img4.png"
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2024/07/IMG-20181216-WA0019.jpg"
                         alt="Lapangan Futsal Interior Eksterior Terbaik"
                         class="w-full h-52 object-cover m-0 p-0 border-0" />
                     <div class="p-6">
@@ -239,7 +239,7 @@ onMounted(() => {
                 <!-- Mini Soccer -->
                 <div class="reveal bg-white rounded-2xl border border-stone-200 overflow-hidden hover:shadow-xl hover:border-[#006400] transition-all"
                     style="transition-delay:.08s">
-                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/minisoccer-img1.png"
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/minisoccer2-img.png"
                         alt="Lapangan Mini Soccer" class="w-full h-52 object-cover m-0 p-0 border-0" />
                     <div class="p-6">
                         <div class="flex items-start justify-between mb-3">
@@ -275,7 +275,7 @@ onMounted(() => {
                 <!-- Padel -->
                 <div class="reveal bg-white rounded-2xl border border-stone-200 overflow-hidden hover:shadow-xl hover:border-[#006400] transition-all"
                     style="transition-delay:.16s">
-                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/padel-img1.png"
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/padel1-img-1-1.png"
                         alt="Lapangan Padel" class="w-full h-52 object-cover m-0 p-0 border-0" />
                     <div class="p-6">
                         <div class="flex items-start justify-between mb-3">
@@ -311,7 +311,7 @@ onMounted(() => {
                 <!-- Badminton -->
                 <div class="reveal bg-white rounded-2xl border border-stone-200 overflow-hidden hover:shadow-xl hover:border-[#006400] transition-all"
                     style="transition-delay:.24s">
-                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/badmintoon-img1.png"
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/badminton2-img-1.png"
                         alt="Lapangan Badminton" class="w-full h-52 object-cover m-0 p-0 border-0" />
                     <div class="p-6">
                         <div class="flex items-start justify-between mb-3">
@@ -540,7 +540,7 @@ onMounted(() => {
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.24s">
                     <div class="h-52 overflow-hidden">
-                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/minisoccer2-img.png"
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/minisoccer-img3.png"
                             alt="Mini Soccer Indoor Semarang"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     </div>
