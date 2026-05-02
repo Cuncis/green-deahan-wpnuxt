@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     }],
   ],
   graphqlMiddleware: {
-    downloadSchema: 'dev-only',
+    downloadSchema: false,
   },
   app: {
     head: {
