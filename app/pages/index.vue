@@ -80,15 +80,6 @@ onMounted(() => {
 
         <!-- ══════════════ HERO ══════════════ -->
         <section class="pt-28 pb-0 px-6 max-w-6xl mx-auto">
-            <div
-                class="flex flex-wrap items-center divide-x divide-stone-300 mb-8 text-xs font-semibold text-stone-500">
-                <span class="flex items-center gap-1.5 pr-4"><span
-                        class="w-2 h-2 rounded-full bg-green-500 animate-pulse inline-block" /> Melayani 24/7</span>
-                <span class="px-4">5.0 Rating dari 100+ Klien</span>
-                <span class="px-4">Garansi Resmi Konstruksi</span>
-                <span class="pl-4">Se-Indonesia Sejak 2010</span>
-            </div>
-
             <div class="grid md:grid-cols-2 gap-10 items-center pb-16">
                 <div>
                     <span
@@ -480,9 +471,10 @@ onMounted(() => {
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
                 <div
                     class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all">
-                    <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 1<br>Futsal Indoor, Jakarta Selatan<br>(700×420px)
-                        </div>
+                    <div class="h-52 overflow-hidden">
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/futsal-img4-1.png"
+                            alt="Futsal Arena Jakarta Selatan"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-[#006400]">Futsal</span>
@@ -505,8 +497,10 @@ onMounted(() => {
                 </div>
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.16s">
-                    <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 3<br>Lapangan Padel, Medan<br>(700×420px)</div>
+                    <div class="h-52 overflow-hidden">
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/padel1-img.png"
+                            alt="Padel Premium Medan"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-orange-600">Padel</span>
@@ -517,8 +511,10 @@ onMounted(() => {
                 </div>
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.08s">
-                    <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 4<br>Badminton Indoor, Bandung<br>(700×420px)</div>
+                    <div class="h-52 overflow-hidden">
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/badminton1-img.png"
+                            alt="Badminton 4 Court Bandung"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-purple-600">Badminton</span>
@@ -529,8 +525,10 @@ onMounted(() => {
                 </div>
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.16s">
-                    <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 5<br>Futsal Outdoor, Makassar<br>(700×420px)</div>
+                    <div class="h-52 overflow-hidden">
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/futsal1-outdoor.png"
+                            alt="Futsal Outdoor Makassar"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-[#006400]">Futsal</span>
@@ -541,8 +539,10 @@ onMounted(() => {
                 </div>
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.24s">
-                    <div class="img-ph h-52 group-hover:scale-105 transition-transform duration-500">
-                        <div class="img-ph-text">📸 FOTO PROYEK 6<br>Mini Soccer Indoor, Semarang<br>(700×420px)</div>
+                    <div class="h-52 overflow-hidden">
+                        <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/minisoccer-img3.png"
+                            alt="Mini Soccer Indoor Semarang"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-4 flex-grow">
                         <span class="text-xs font-bold text-blue-600">Mini Soccer</span>
