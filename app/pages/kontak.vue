@@ -2,8 +2,6 @@
 useHead({ title: 'Kontak Kami | Green Deahan Sport' })
 
 const name = ref('')
-const phone = ref('')
-const email = ref('')
 const lapanganType = ref('')
 const city = ref('')
 const budget = ref('')
@@ -33,23 +31,30 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
 async function handleSubmit() {
     error.value = ''
     if (!name.value.trim()) { error.value = 'Nama lengkap wajib diisi.'; return }
-    if (!phone.value.trim()) { error.value = 'Nomor WhatsApp/HP wajib diisi.'; return }
     if (!lapanganType.value) { error.value = 'Pilih jenis lapangan yang diminati.'; return }
     if (!city.value.trim()) { error.value = 'Kota / lokasi proyek wajib diisi.'; return }
 
     loading.value = true
     try {
-        // Build WhatsApp message as a simple fallback
+        const interestList = interests.value.length ? interests.value.join(', ') : 'Belum ditentukan'
         const waText = encodeURIComponent(
-            `Halo Green Deahan! Saya ingin konsultasi lapangan.\n\n` +
-            `Nama: ${name.value}\n` +
-            `No. WA/HP: ${phone.value}\n` +
-            `Email: ${email.value || '-'}\n` +
-            `Jenis Lapangan: ${lapanganType.value}\n` +
-            `Kota/Lokasi: ${city.value}\n` +
-            `Budget: ${budget.value || '-'}\n` +
-            `Pesan: ${message.value || '-'}\n` +
-            `Tertarik untuk: ${interests.value.join(', ') || '-'}`
+            `Halo kak, saya ingin tanya-tanya soal pembuatan lapangan 🙏\n\n` +
+            `━━━━━━━━━━━━━━━━━━━━\n` +
+            `👤 *INFORMASI PEMESAN*\n` +
+            `Nama Saya  : ${name.value}\n` +
+            `━━━━━━━━━━━━━━━━━━━━\n` +
+            `🏟️ *DETAIL LAPANGAN*\n` +
+            `Jenis Lapangan : ${lapanganType.value}\n` +
+            `Kota / Lokasi  : ${city.value}\n` +
+            `Estimasi Budget: ${budget.value || 'Belum tahu, minta estimasi'}\n` +
+            `━━━━━━━━━━━━━━━━━━━━\n` +
+            `✅ *SAYA BUTUH BANTUAN*\n` +
+            `${interestList}\n` +
+            `━━━━━━━━━━━━━━━━━━━━\n` +
+            `💬 *KETERANGAN TAMBAHAN*\n` +
+            `${message.value || 'Tidak ada keterangan tambahan'}\n` +
+            `━━━━━━━━━━━━━━━━━━━━\n` +
+            `Mohon info lebih lanjutnya ya kak, terima kasih! 😊`
         )
         // Open WhatsApp after short delay for UX
         await new Promise(resolve => setTimeout(resolve, 400))
@@ -213,31 +218,17 @@ onMounted(() => {
                             </div>
                             <div>
                                 <label class="text-xs font-bold text-stone-600 uppercase tracking-wide block mb-1.5"
-                                    for="f-phone">Nomor WhatsApp / HP *</label>
-                                <input id="f-phone" v-model="phone" type="tel" placeholder="08xx-xxxx-xxxx"
-                                    class="form-input w-full border-2 border-stone-200 rounded-xl px-4 py-3 text-sm bg-[#f7f5f2] placeholder-stone-400" />
+                                    for="f-type">Jenis Lapangan yang Diminati *</label>
+                                <select id="f-type" v-model="lapanganType"
+                                    class="form-input w-full border-2 border-stone-200 rounded-xl px-4 py-3 text-sm bg-[#f7f5f2] text-stone-700">
+                                    <option value="">-- Pilih jenis lapangan --</option>
+                                    <option value="Lapangan Futsal">⚽ Lapangan Futsal</option>
+                                    <option value="Mini Soccer">🟢 Mini Soccer</option>
+                                    <option value="Lapangan Padel">🎾 Lapangan Padel</option>
+                                    <option value="Lapangan Badminton">🏸 Lapangan Badminton</option>
+                                    <option value="Lebih dari 1 jenis">🏟 Lainnya / Lebih dari 1 jenis</option>
+                                </select>
                             </div>
-                        </div>
-
-                        <div>
-                            <label class="text-xs font-bold text-stone-600 uppercase tracking-wide block mb-1.5"
-                                for="f-email">Email</label>
-                            <input id="f-email" v-model="email" type="email" placeholder="email@anda.com"
-                                class="form-input w-full border-2 border-stone-200 rounded-xl px-4 py-3 text-sm bg-[#f7f5f2] placeholder-stone-400" />
-                        </div>
-
-                        <div>
-                            <label class="text-xs font-bold text-stone-600 uppercase tracking-wide block mb-1.5"
-                                for="f-type">Jenis Lapangan yang Diminati *</label>
-                            <select id="f-type" v-model="lapanganType"
-                                class="form-input w-full border-2 border-stone-200 rounded-xl px-4 py-3 text-sm bg-[#f7f5f2] text-stone-700">
-                                <option value="">-- Pilih jenis lapangan --</option>
-                                <option value="Lapangan Futsal">⚽ Lapangan Futsal</option>
-                                <option value="Mini Soccer">🟢 Mini Soccer</option>
-                                <option value="Lapangan Padel">🎾 Lapangan Padel</option>
-                                <option value="Lapangan Badminton">🏸 Lapangan Badminton</option>
-                                <option value="Lebih dari 1 jenis">🏟 Lainnya / Lebih dari 1 jenis</option>
-                            </select>
                         </div>
 
                         <div class="grid sm:grid-cols-2 gap-4">
@@ -296,12 +287,6 @@ onMounted(() => {
                             </svg>
                             {{ loading ? 'Mengirim...' : 'Kirim Pesan Sekarang' }}
                         </button>
-                        <p class="text-center text-xs text-stone-400">
-                            *Atau langsung chat via
-                            <a href="https://wa.me/6281357570064" target="_blank" rel="noopener noreferrer"
-                                class="text-[#006400] font-bold underline">WhatsApp</a>
-                            untuk respon lebih cepat
-                        </p>
                     </form>
                 </div>
             </div>

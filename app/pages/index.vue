@@ -485,7 +485,7 @@ onMounted(() => {
                 </div>
                 <div class="reveal rounded-2xl overflow-hidden border border-stone-200 bg-white flex flex-col group hover:shadow-lg transition-all"
                     style="transition-delay:.08s">
-                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/minisoccer-img1.png"
+                    <img src="https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/minisoccer-img2.png"
                         alt="Mini Soccer Outdoor Surabaya"
                         class="h-52 w-full object-cover group-hover:scale-105 transition-transform duration-500 m-0 p-0 border-0" />
                     <div class="p-4 flex-grow">
