@@ -13,7 +13,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           type: 'image/png',
-          href: 'https://gdlogin.greendeahan.com/wp-content/uploads/2026/04/GD-logo-1.png',
+          href: '/favicon.png',
         },
         {
           rel: 'stylesheet',
