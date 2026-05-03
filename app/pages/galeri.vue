@@ -136,9 +136,9 @@ onMounted(() => {
                     class="absolute top-3 right-3 w-9 h-9 bg-white/90 rounded-full flex items-center justify-center text-stone-700 font-bold hover:bg-white text-lg leading-none">✕</button>
                 <!-- Prev / Next -->
                 <button @click.stop="navLightbox(-1)"
-                    class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center text-stone-700 font-bold hover:bg-white text-lg">‹</button>
+                    class="lb-nav absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center text-stone-700 font-bold hover:bg-white text-lg">‹</button>
                 <button @click.stop="navLightbox(1)"
-                    class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center text-stone-700 font-bold hover:bg-white text-lg">›</button>
+                    class="lb-nav absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center text-stone-700 font-bold hover:bg-white text-lg">›</button>
             </div>
         </div>
     </Teleport>
@@ -177,7 +177,7 @@ onMounted(() => {
     <!-- Tabs -->
     <section class="sticky top-[65px] z-40 bg-[#f7f5f2] border-b border-stone-200 px-6 py-3">
         <div class="max-w-6xl mx-auto">
-            <div class="flex gap-2 overflow-x-auto pb-1">
+            <div class="tab-scroll flex gap-2 overflow-x-auto pb-1">
                 <button v-for="tab in tabs" :key="tab.key" :class="[
                     'flex-shrink-0 text-sm font-bold px-5 py-2.5 rounded-xl border-2 transition-all',
                     activeFilter === tab.key
@@ -254,6 +254,29 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.tab-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #006400 #d4e6d4;
+}
+
+.tab-scroll::-webkit-scrollbar {
+    height: 4px;
+}
+
+.tab-scroll::-webkit-scrollbar-track {
+    background: #d4e6d4;
+    border-radius: 99px;
+}
+
+.tab-scroll::-webkit-scrollbar-thumb {
+    background: #006400;
+    border-radius: 99px;
+}
+
+.tab-scroll::-webkit-scrollbar-thumb:hover {
+    background: #004d00;
+}
+
 .lb-overlay {
     position: fixed;
     inset: 0;
@@ -305,5 +328,12 @@ onMounted(() => {
 .lb-info {
     background: #fff;
     padding: 1.25rem 1.5rem;
+}
+
+@media (max-width: 640px) {
+    .lb-nav {
+        top: 30%;
+        transform: translateY(-50%);
+    }
 }
 </style>
