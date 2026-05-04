@@ -167,41 +167,42 @@ watch([filteredPosts, searchQuery, activeCategory], async () => {
 
         <!-- Posts grid -->
         <div v-if="filteredPosts.length > 0" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <NuxtLink
-                v-for="(post, idx) in (searchQuery || activeCategory !== 'semua' ? filteredPosts : filteredPosts.slice(1))"
-                :key="post.databaseId ?? idx" :to="post.uri ?? ('/' + post.slug)" :class="[
-                    'blog-card bg-white border-2 border-stone-200 rounded-2xl overflow-hidden reveal',
-                ]" :style="idx > 0 ? `transition-delay:${(idx % 3) * 0.08}s` : ''">
-                <!-- Post image -->
-                <div class="relative overflow-hidden aspect-[16/9]">
-                    <img v-if="post.featuredImage?.node?.sourceUrl" :src="post.featuredImage.node.sourceUrl"
-                        :alt="post.title"
-                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                    <div v-else class="img-ph" style="height:100%">
-                        <div class="img-ph-text" style="font-size:.65rem">📸 FOTO ARTIKEL</div>
+            <div v-for="(post, idx) in (searchQuery || activeCategory !== 'semua' ? filteredPosts : filteredPosts.slice(1))"
+                :key="post.databaseId ?? idx" class="reveal"
+                :style="idx > 0 ? `transition-delay:${(idx % 3) * 0.08}s` : ''">
+                <NuxtLink :to="post.uri ?? ('/' + post.slug)"
+                    class="blog-card bg-white border-2 border-stone-200 rounded-2xl overflow-hidden block">
+                    <!-- Post image -->
+                    <div class="relative overflow-hidden aspect-[16/9]">
+                        <img v-if="post.featuredImage?.node?.sourceUrl" :src="post.featuredImage.node.sourceUrl"
+                            :alt="post.title"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <div v-else class="img-ph" style="height:100%">
+                            <div class="img-ph-text" style="font-size:.65rem">📸 FOTO ARTIKEL</div>
+                        </div>
                     </div>
-                </div>
-                <!-- Post content -->
-                <div class="p-5">
-                    <div class="flex flex-wrap gap-1.5 mb-3">
-                        <span v-for="cat in (post.categories?.nodes ?? [])" :key="cat.name"
-                            class="text-xs font-bold text-[#006400] bg-green-50 border border-green-200 px-2.5 py-0.5 rounded-full">
-                            {{ cat.name }}
-                        </span>
+                    <!-- Post content -->
+                    <div class="p-5">
+                        <div class="flex flex-wrap gap-1.5 mb-3">
+                            <span v-for="cat in (post.categories?.nodes ?? [])" :key="cat.name"
+                                class="text-xs font-bold text-[#006400] bg-green-50 border border-green-200 px-2.5 py-0.5 rounded-full">
+                                {{ cat.name }}
+                            </span>
+                        </div>
+                        <h3
+                            class="card-title font-display font-black text-base text-stone-900 leading-tight mb-2 line-clamp-2 transition-colors">
+                            {{ post.title }}
+                        </h3>
+                        <p class="text-xs text-stone-500 leading-relaxed mb-4 line-clamp-3">
+                            {{ stripHtml(post.excerpt ?? '') }}
+                        </p>
+                        <div class="flex items-center justify-between pt-3 border-t border-stone-100">
+                            <span class="text-xs text-stone-400">{{ post.date ? formatDate(post.date) : '' }}</span>
+                            <span class="read-more">Baca →</span>
+                        </div>
                     </div>
-                    <h3
-                        class="card-title font-display font-black text-base text-stone-900 leading-tight mb-2 line-clamp-2 transition-colors">
-                        {{ post.title }}
-                    </h3>
-                    <p class="text-xs text-stone-500 leading-relaxed mb-4 line-clamp-3">
-                        {{ stripHtml(post.excerpt ?? '') }}
-                    </p>
-                    <div class="flex items-center justify-between pt-3 border-t border-stone-100">
-                        <span class="text-xs text-stone-400">{{ post.date ? formatDate(post.date) : '' }}</span>
-                        <span class="read-more">Baca →</span>
-                    </div>
-                </div>
-            </NuxtLink>
+                </NuxtLink>
+            </div>
         </div>
 
         <!-- Empty state -->
