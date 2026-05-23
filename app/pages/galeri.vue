@@ -40,6 +40,7 @@ const galeriData: GaleriItem[] = [
     // ── BADMINTON 10% → 2 items ─────────────────────────────────────────────
     { id: 19, cat: 'badminton', tall: true, title: 'Badminton 3 Court Bandung', kota: 'Bandung, Jawa Barat', material: 'Interlock', desc: '3 lapangan badminton indoor. Lantai interock sport premium, LED 500 lux anti-silau. Selesai 30 hari.', badge: '🏸 Badminton', badgeColor: 'text-purple-700 bg-purple-50 border-purple-200', ph: '📸 BADMINTON 1 · Bandung\n4 Court View dari Tribun\n700 × 500 px', src: 'https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/badminton3-img-1.png' },
     { id: 20, cat: 'badminton', tall: false, title: 'Badminton 2 Court Semarang', kota: 'Semarang, Jawa Tengah', material: 'Interlock', desc: '2 lapangan badminton lantai interlock. Akustik ruangan baik, non-slip, ramah lutut.', badge: '🏸 Badminton', badgeColor: 'text-purple-700 bg-purple-50 border-purple-200', ph: '📸 BADMINTON 2 · Semarang\nLantai Kayu / Net BWF\n700 × 440 px', src: 'https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/badminton2-img-1.png' },
+    { id: 27, cat: 'badminton', tall: false, title: 'Badminton 3 Court Mojokerto', kota: 'Mojokerto, Jawa Timur', material: 'Lantai Vinyl', desc: '3 lapangan badminton indoor. Lantai Vinyl, non-slip, ramah lutut. Selesai 14 hari.', badge: '🏸 Badminton', badgeColor: 'text-purple-700 bg-purple-50 border-purple-200', ph: '📸 BADMINTON 3 · Mojokerto\nLantai Vinyl & Lapangan Siap Pakai 700 × 440 px', src: 'https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/badmintoon-img4.png' },
     // ── PROSES KONSTRUKSI ────────────────────────────────────────────────────
     { id: 21, cat: 'proses', tall: false, title: 'Survey Lokasi: Sebelum Mulai', kota: 'Berbagai Kota', material: 'Survey & Pengukuran', desc: 'Tim kami survey lokasi, ukur lahan, dan analisis tanah sebelum konstruksi dimulai.', badge: '🏗 Proses', badgeColor: 'text-stone-700 bg-stone-50 border-stone-200', ph: '📸 PROSES 1 · Survey\nTim + Alat Ukur di Lokasi\n700 × 440 px', src: 'https://gdlogin.greendeahan.com/wp-content/uploads/2026/05/konstruksi11-img-1.png' },
     { id: 22, cat: 'proses', tall: true, title: 'Pengerjaan Struktur Dasar', kota: 'On Progress', material: 'Konstruksi', desc: 'Pengerjaan pondasi dan struktur dasar lapangan. Material berkualitas, pengawasan ketat setiap tahap.', badge: '🏗 Proses', badgeColor: 'text-stone-700 bg-stone-50 border-stone-200', ph: '📸 PROSES 2 · Struktur\nBesi / Pengecoran Pondasi\n700 × 500 px', src: 'https://gdlogin.greendeahan.com/wp-content/uploads/2024/07/photo_28_2024-07-23_10-52-44.webp' },
@@ -123,7 +124,7 @@ onMounted(() => {
                             </span>
                             <h3 class="font-display font-black text-lg text-stone-900">{{ lightboxItem?.title }}</h3>
                             <p class="text-sm text-stone-500 mt-1">{{ lightboxItem?.desc }} | 📍 {{ lightboxItem?.kota
-                                }} | 🧱 {{ lightboxItem?.material }}</p>
+                            }} | 🧱 {{ lightboxItem?.material }}</p>
                         </div>
                         <a href="https://wa.me/6281357570064" target="_blank" rel="noopener noreferrer"
                             class="flex-shrink-0 bg-[#006400] text-white text-xs font-bold px-4 py-2.5 rounded-lg hover:bg-[#004d00] transition-colors whitespace-nowrap">
